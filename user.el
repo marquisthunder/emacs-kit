@@ -1,3 +1,6 @@
+(color-theme-sanityinc-tomorrow-eighties)
+(add-to-list 'load-path "~/.emacs.d/user")
+(global-set-key [(meta return)] 'toggle-fullscreen)
 ;;disable suspending emacs on ctrl-z
 (global-set-key (kbd "C-z") 'undo)
 (global-unset-key (kbd "C-x C-z"))
@@ -9,13 +12,13 @@
 (global-set-key (kbd "C-'") 'ace-jump-mode)
 ;;use idomenu to search for symbols
 (global-set-key (kbd "C-o") 'idomenu)
-
+(global-set-key (kbd "C-x C-d") 'kill-this-buffer) ; Close file
 (desktop-save-mode 1)
 
 
 ;;basic colors - comment this out to use light background
-(custom-set-faces
- '(default ((t (:inherit nil :stipple nil :background "black" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 90 :width normal :foundry "unknown" :family "DejaVu Sans Mono")))))
+;(custom-set-faces
+; '(default ((t (:inherit nil :stipple nil :background "black" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 90 :width normal :foundry "unknown" :family "DejaVu Sans Mono")))))
 
 ;;auto-complete, ac-slime
 (autoload 'set-up-slime-ac "ac-slime")
@@ -82,6 +85,8 @@
             (define-key slime-mode-map (kbd "M-{") 'paredit-wrap-curly)
             (define-key slime-repl-mode-map [C-S-up] 'slime-repl-previous-matching-input)))
 
+;;clojure-jack-in
+(global-set-key (kbd "C-c C-j") 'nrepl-jack-in)
 
 (defun goto-last-edit-point ()
   "Go to the last point where editing occurred."
@@ -99,3 +104,25 @@
 ;;browse link shortcut
 (global-set-key (kbd "C-c M-b") 'browse-url-at-point)
 
+(defun start-newline-next ()
+    (interactive)
+      (end-of-line)
+        (newline-and-indent))
+ 
+(defun start-newline-prev ()
+    (interactive)
+      (forward-line -1)
+        (start-newline-next))
+ 
+(global-set-key (kbd "C-o") 'start-newline-next)
+(global-set-key (kbd "M-o") 'start-newline-prev)
+
+;;fullscreen
+(defun toggle-fullscreen ()
+  (interactive)
+  (set-frame-parameter nil 'fullscreen (if (frame-parameter nil 'fullscreen)
+					    nil
+					    'fullboth)))
+(toggle-fullscreen)
+
+(provide 'user)

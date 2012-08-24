@@ -7,8 +7,11 @@
   (package-refresh-contents))
 
 ;; Add in your own as you wish:
-(defvar my-packages '(color-theme-sanityinc-tomorrow starter-kit starter-kit-lisp starter-kit-eshell starter-kit-js starter-kit-bindings nrepl
-                                 org org2blog clojure-mode durendal ac-slime ace-jump-mode idomenu)
+(defvar my-packages '(color-theme-sanityinc-tomorrow
+                      starter-kit starter-kit-lisp starter-kit-eshell starter-kit-js starter-kit-bindings
+                      nrepl clojure-mode ipython clojurescript-mode coffee-mode gist git-commit less-css-mode
+                      magit json paredit python-mode python-pep8 python-pylint pysmell sass-mode yasnippet
+                      durendal ac-slime ace-jump-mode idomenu)
   "A list of packages to ensure are installed at launch.")
 
 (dolist (p my-packages)

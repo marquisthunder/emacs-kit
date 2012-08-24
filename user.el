@@ -1,5 +1,6 @@
 (color-theme-sanityinc-tomorrow-eighties)
 (add-to-list 'load-path "~/.emacs.d/user")
+(add-to-list 'load-path "~/.emacs.d/snippets")
 (global-set-key [(meta return)] 'toggle-fullscreen)
 ;;disable suspending emacs on ctrl-z
 (global-set-key (kbd "C-z") 'undo)

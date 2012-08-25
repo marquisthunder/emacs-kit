@@ -16,8 +16,31 @@
 (global-set-key (kbd "C-x C-d") 'kill-this-buffer) ; Close file
 (desktop-save-mode 1)
 
+;;; esc quits
+(evil-mode 1)
 
-;;basic colors - comment this out to use light background
+(define-key evil-normal-state-map [escape] 'keyboard-quit)
+(define-key evil-visual-state-map [escape] 'keyboard-quit)
+(define-key minibuffer-local-map [escape] 'minibuffer-keyboard-quit)
+(define-key minibuffer-local-ns-map [escape] 'minibuffer-keyboard-quit)
+(define-key minibuffer-local-completion-map [escape] 'minibuffer-keyboard-quit)
+(define-key minibuffer-local-must-match-map [escape] 'minibuffer-keyboard-quit)
+(define-key minibuffer-local-isearch-map [escape] 'minibuffer-keyboard-quit)
+
+;;; initial set state mode for some specie modes
+(loop for (mode . state) in '(
+    (inferior-emacs-lisp-mode . emacs)
+    (pylookup-mode . emacs)
+    (comint-mode . emacs)
+    (shell-mode . emacs)
+    (term-mode . emacs)
+    (bc-menu-mode . emacs)
+    (magit-branch-manager-mode-map . emacs)
+    (magit-mode . emacs)
+    (rdictcc-buffer-mode . emacs))
+(do (evil-set-initial-state mode state)))
+
+;basic colors - comment this out to use light background
 ;(custom-set-faces
 ; '(default ((t (:inherit nil :stipple nil :background "black" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 90 :width normal :foundry "unknown" :family "DejaVu Sans Mono")))))
 

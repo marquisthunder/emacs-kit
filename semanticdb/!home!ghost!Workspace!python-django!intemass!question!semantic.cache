@@ -1,0 +1,138 @@
+;; Object question/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "question/"
+  :tables (list 
+   (semanticdb-table "views.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("os" include nil nil [1 14])
+            ("re" include nil nil [15 24])
+            ("Image" include nil nil [25 37])
+            ("pickle" include nil nil [38 51])
+            ("itertools" include nil nil [52 68])
+            ("logging" include nil nil [69 83])
+            ("django.shortcuts" include nil nil [84 131])
+            ("django.http" include nil nil [132 168])
+            ("django.template" include nil nil [169 211])
+            ("django.contrib.auth.decorators" include nil nil [212 290])
+            ("django.views.decorators.csrf" include nil nil [291 343])
+            ("django.utils" include nil nil [344 387])
+            ("django.conf" include nil nil [388 420])
+            ("django.utils.html" include nil nil [421 461])
+            ("intemass.question.models" include nil nil [462 538])
+            ("intemass.student.models" include nil nil [539 588])
+            ("intemass.itempool.models" include nil nil [589 634])
+            ("sys" code nil nil [635 738])
+            ("portal.common" include nil nil [739 766])
+            ("algo.standard" include nil nil [767 794])
+            ("algo.markscheme" include nil nil [795 824])
+            ("django.shortcuts" include nil nil [825 871])
+            ("django.core.urlresolvers" include nil nil [872 921])
+            ("django.views.generic.edit" include nil nil [922 970])
+            ("intemass.paper.models" include nil nil [971 1010])
+            ("hashlib" include nil nil [1011 1025])
+            ("logger" variable nil nil [1027 1063])
+            ("permission_required" code nil nil [1066 1102])
+            ("question_add" function (:arguments 
+              ( ("request" variable nil (reparse-symbol function_parameters) [1120 1127]))              ) nil [1103 1956])
+            ("permission_required" code nil nil [1958 1994])
+            ("question_updatename" function (:arguments 
+              ( ("request" variable nil (reparse-symbol function_parameters) [2019 2026]))              ) nil [1995 3398])
+            ("__pointanalysis" function (:arguments 
+              ( ("fulltext" variable nil (reparse-symbol function_parameters) [3419 3427]))              ) nil [3399 3798])
+            ("__changeNameForStd" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [3822 3826])
+                ("qid" variable nil (reparse-symbol function_parameters) [3827 3830]))              ) nil [3799 4134])
+            ("__changeName" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [4152 4156])
+                ("qid" variable nil (reparse-symbol function_parameters) [4157 4160]))              ) nil [4135 4454])
+            ("__saveImage" function (:arguments 
+              ( ("image" variable nil (reparse-symbol function_parameters) [4471 4476])
+                ("fpath" variable nil (reparse-symbol function_parameters) [4477 4482])
+                ("fname" variable nil (reparse-symbol function_parameters) [4483 4488]))              ) nil [4455 4761])
+            ("__resizeImage" function (:arguments 
+              ( ("imageIn" variable nil (reparse-symbol function_parameters) [4780 4787])
+                ("imageOut" variable nil (reparse-symbol function_parameters) [4788 4796]))              ) nil [4762 5074])
+            ("csrf_exempt" code nil nil [5076 5087])
+            ("questionimage_upload" function (:arguments 
+              ( ("request" variable nil (reparse-symbol function_parameters) [5113 5120]))              ) nil [5088 8071])
+            ("permission_required" code nil nil [8073 8109])
+            ("question_deleteimage" function (:arguments 
+              ( ("request" variable nil (reparse-symbol function_parameters) [8135 8142]))              ) nil [8110 8596])
+            ("permission_required" code nil nil [8598 8634])
+            ("question_submit" function (:arguments 
+              ( ("request" variable nil (reparse-symbol function_parameters) [8655 8662]))              ) nil [8635 10374])
+            ("permission_required" code nil nil [10376 10412])
+            ("question_get" function (:arguments 
+              ( ("request" variable nil (reparse-symbol function_parameters) [10430 10437]))              ) nil [10413 12164])
+            ("login_required" code nil nil [12166 12180])
+            ("stu_question_get" function (:arguments 
+              ( ("request" variable nil (reparse-symbol function_parameters) [12202 12209]))              ) nil [12181 13228])
+            ("login_required" code nil nil [13230 13244])
+            ("stu_question_thumbnails" function (:arguments 
+              ( ("request" variable nil (reparse-symbol function_parameters) [13273 13280]))              ) nil [13245 15804])
+            ("permission_required" code nil nil [15806 15842])
+            ("question_thumbnails" function (:arguments 
+              ( ("request" variable nil (reparse-symbol function_parameters) [15867 15874]))              ) nil [15843 18342])
+            ("permission_required" code nil nil [18344 18380])
+            ("question_submitstandard" function (:arguments 
+              ( ("request" variable nil (reparse-symbol function_parameters) [18409 18416]))              ) nil [18381 19361])
+            ("_parsestdanswer" function (:arguments 
+              ( ("question" variable nil (reparse-symbol function_parameters) [19382 19390])
+                ("txtstdanswer" variable nil (reparse-symbol function_parameters) [19392 19404]))              ) nil [19362 20612])
+            ("_updatestdanswer" function (:arguments 
+              ( ("question" variable nil (reparse-symbol function_parameters) [20634 20642])
+                ("stdanswer" variable nil (reparse-symbol function_parameters) [20644 20653])
+                ("txtanswer" variable nil (reparse-symbol function_parameters) [20655 20664]))              ) nil [20613 21042])
+            ("permission_required" code nil nil [21044 21080])
+            ("question_submitmark" function (:arguments 
+              ( ("request" variable nil (reparse-symbol function_parameters) [21105 21112]))              ) nil [21081 21943])
+            ("_parsescheme" function (:arguments 
+              ( ("rawschemes" variable nil (reparse-symbol function_parameters) [21961 21971]))              ) nil [21944 22961])
+            ("_updaterulelist" function (:arguments 
+              ( ("scheme" variable nil (reparse-symbol function_parameters) [22982 22988])
+                ("question" variable nil (reparse-symbol function_parameters) [22990 22998]))              ) nil [22962 24447])
+            ("_updatesheme" function (:arguments 
+              ( ("question" variable nil (reparse-symbol function_parameters) [24466 24474])
+                ("stdanswer" variable nil (reparse-symbol function_parameters) [24476 24485])
+                ("rawschemes" variable nil (reparse-symbol function_parameters) [24487 24497]))              ) nil [24449 24960])
+            ("_updatepaper" function (:arguments 
+              ( ("question" variable nil (reparse-symbol function_parameters) [24978 24986]))              ) nil [24961 25277])
+            ("QuestionDelete" type
+               (:superclasses ("DeleteView")
+                :members 
+                  ( ("model" variable nil (reparse-symbol indented_block_body) [25316 25332])
+                    ("success_url" variable nil (reparse-symbol indented_block_body) [25337 25386])
+                    ("get_object" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [25406 25410]))                      ) (reparse-symbol indented_block_body) [25391 25510]))                  
+                :type "class")
+                nil [25278 25510])
+            ("login_required" code nil nil [25512 25526])
+            ("question_getpointmarklist" function (:arguments 
+              ( ("request" variable nil (reparse-symbol function_parameters) [25557 25564]))              ) nil [25527 26396])
+            ("login_required" code nil nil [26399 26413])
+            ("question_getstdanswer" function (:arguments 
+              ( ("request" variable nil (reparse-symbol function_parameters) [26440 26447]))              ) nil [26414 27016])
+            ("login_required" code nil nil [27018 27032])
+            ("questionid_get" function (:arguments 
+              ( ("request" variable nil (reparse-symbol function_parameters) [27052 27059]))              ) nil [27033 27781])
+            ("login_required" code nil nil [27783 27797])
+            ("question_getstuanswer" function (:arguments 
+              ( ("request" variable nil (reparse-symbol function_parameters) [27824 27831]))              ) nil [27798 28831])
+            ("login_required" code nil nil [28833 28847])
+            ("report_thumbnails" function (:arguments 
+              ( ("request" variable nil (reparse-symbol function_parameters) [28870 28877]))              ) nil [28848 29826])
+            ("_getreportthumbnails" function (:arguments 
+              ( ("question" variable nil (reparse-symbol function_parameters) [29852 29860])
+                ("stuanswer" variable nil (reparse-symbol function_parameters) [29862 29871]))              ) nil [29827 31643]))          
+    :file "views.py"
+    :pointmax 31643
+    :fsize 31642
+    :lastmodtime '(20535 34320 23851 547000)
+    :unmatched-syntax '((IF 28970 . 28972) (NEWLINE 29745 . 29746) (punctuation 28832 . 28833) (punctuation 27782 . 27783) (IF 27141 . 27143) (NEWLINE 27700 . 27701) (punctuation 27017 . 27018) (IF 26527 . 26529) (NEWLINE 26935 . 26936) (punctuation 26398 . 26399) (punctuation 25511 . 25512) (INDENT_BLOCK 22324 . 22372) (NEWLINE 22323 . 22324) (COLON 22322 . 22323) (ELSE 22318 . 22322) (IF 22237 . 22239) (NEWLINE 22305 . 22306) (punctuation 21043 . 21044) (punctuation 18343 . 18344) (IF 16004 . 16006) (NEWLINE 18261 . 18262) (punctuation 15805 . 15806) (IF 13423 . 13425) (NEWLINE 15721 . 15722) (punctuation 13229 . 13230) (IF 12337 . 12339) (NEWLINE 13147 . 13148) (punctuation 12165 . 12166) (IF 10559 . 10561) (NEWLINE 12083 . 12084) (punctuation 10375 . 10376) (punctuation 8597 . 8598) (IF 8191 . 8193) (NEWLINE 8515 . 8516) (punctuation 8072 . 8073) (INDENT_BLOCK 8003 . 8071) (NEWLINE 8002 . 8003) (COLON 8001 . 8002) (ELSE 7997 . 8001) (IF 5127 . 5129) (NEWLINE 7992 . 7993) (punctuation 5075 . 5076) (INDENT_BLOCK 4601 . 4703) (NEWLINE 4600 . 4601) (COLON 4599 . 4600) (NAME 4558 . 4562) (NAME 4563 . 4567) (AS 4585 . 4587) (IF 2158 . 2160) (NEWLINE 3315 . 3316) (punctuation 1957 . 1958) (punctuation 1065 . 1066))
+    )
+   )
+  :file "!home!ghost!Workspace!python-django!intemass!question!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

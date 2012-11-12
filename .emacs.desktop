@@ -1,0 +1,117 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Mon Nov 12 12:40:23 2012
+;; Desktop file format version 206
+;; Emacs version 24.2.50.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("starter"))
+(setq regexp-search-ring '("\\_<ModelResource\\_>" "\\_<_namespace\\_>" "\\_<ModbusControlBlock\\_>" "\\_<ModbusAccessControl\\_>" "\\_<register_routes\\_>" "\\_<palette\\.color\\_>" "legend" "\\_<legend\\_>" "\\_<slider\\_>" "\\_<timeline\\_>" "\\_<chart\\_>" "\\_<chart_container\\_>" "rendercon" "\\_<vis\\_>" "contain" "hero"))
+(setq register-alist (list (desktop-list* 49 (let ((mk (make-marker))) (add-hook 'desktop-delay-hook (list 'lambda '() (list 'set-marker mk nil (get-buffer " *temp*")))) mk))))
+(setq file-name-history '("/home/ghost/Workspace/python-django/kaas/common/templates/base.html" "/home/ghost/Workspace/python-django/kaas/portal/templates/index.html" "/home/ghost/Workspace/python-django/kaas/member/resource.py" "/home/ghost/Workspace/python-django/kaas/member/views.py" "/home/ghost/Workspace/dsl/code/walking/visitor/AddNode.java" "/home/ghost/Workspace/python-django/southpolar/common/tastyalchemy.py" "/home/ghost/Workspace/python-django/django-comet/comet/management/commands/runcomet.py" "/home/ghost/Workspace/python-django/django-comet/comet/management/commands/__init__.py" "/home/ghost/Workspace/python-django/django-comet/comet/utils.py" "/home/ghost/Workspace/python-django/django-comet/comet/tests.py" "/home/ghost/Workspace/python-django/django-comet/comet/backends.py" "/home/ghost/Workspace/python-django/django-comet/comet/application.py" "/home/ghost/Workspace/python-django/kaas/portal/resource.py" "/home/ghost/Workspace/python-django/southpolar/turbine/resource.py" "/home/ghost/Workspace/modbustest/testclient.py" "/home/ghost/Workspace/modbustest/syncclient.py" "/home/ghost/Workspace/modbustest/asyncserver.py" "/home/ghost/Workspace/python-django/southpolar/rickshaw/examples/css/extensions.css" "/home/ghost/Workspace/python-django/southpolar/rickshaw/examples/extensions.html" "/home/ghost/Workspace/python-django/southpolar/turbine/static/js/turbine_directives.coffee" "/home/ghost/Workspace/python-django/southpolar/common/static/js/southpolar.coffee" "/home/ghost/Workspace/python-django/southpolar/turbine/static/js/turbine_services.coffee" "/home/ghost/Workspace/python-django/southpolar/turbine/static/js/turbine_controllers.coffee" "/home/ghost/Workspace/python-django/southpolar/common/templates/base.jade" "~/Workspace/python-django/southpolar/rickshaw/examples/js/extensions.js" "/home/ghost/Workspace/python-django/southpolar/rickshaw/examples/extensions.html" "/home/ghost/Workspace/python-django/southpolar/turbine/static/js/turbine_controllers.coffee" "/home/ghost/Workspace/python-django/southpolar/turbine/models.py" "/home/ghost/Workspace/python-django/southpolar/turbine/templates/turbine-detail.jade" "/home/ghost/Workspace/python-django/southpolar/member/templates/pmember-detail.jade"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/python-django/kaas/common/templates/base.html"
+  "base.html"
+  'html-mode
+  '(auto-fill-mode undo-tree-mode linum-mode flyspell-mode)
+  2007
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/python-django/kaas/portal/templates/index.html"
+  "index.html"
+  'html-mode
+  '(auto-fill-mode undo-tree-mode linum-mode flyspell-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/python-django/kaas/member/resource.py"
+  "resource.py"
+  'python-mode
+  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode hi-lock-mode)
+  501
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/python-django/kaas/member/views.py"
+  "views.py"
+  'python-mode
+  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/dsl/code/walking/visitor/AddNode.java"
+  "AddNode.java"
+  'java-mode
+  '(auto-fill-mode abbrev-mode undo-tree-mode linum-mode auto-complete-mode hi-lock-mode)
+  461
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/python-django/django-comet/comet/management/commands/__init__.py"
+  "__init__.py"
+  'python-mode
+  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/python-django/django-comet/comet/utils.py"
+  "utils.py"
+  'python-mode
+  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode hi-lock-mode)
+  60
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/python-django/django-comet/comet/tests.py"
+  "tests.py"
+  'python-mode
+  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/python-django/django-comet/comet/application.py"
+  "application.py"
+  'python-mode
+  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode hi-lock-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (column-number-mode . t)))
+

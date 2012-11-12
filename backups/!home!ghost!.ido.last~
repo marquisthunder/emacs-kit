@@ -1,0 +1,411 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/ghost/Workspace/python-django/django-comet/comet/management/" . "commands/")
+ ("/home/ghost/Workspace/python-django/django-comet/comet/" . "management/")
+ ("/home/ghost/Workspace/python-django/django-comet/" . "comet/")
+ ("/home/ghost/Workspace/python-django/kaas/member/" . "templates/")
+ ("/home/ghost/Workspace/python-django/southpolar/rickshaw/examples/" . "css/")
+ ("/home/ghost/Workspace/jstest/" . "angular-d3-demo/")
+ ("/home/ghost/Workspace/python-django/southpolar/common/static/js/angular-ui/modules/directives/" . "modal/")
+ ("/home/ghost/Workspace/python-django/southpolar/common/static/js/angular-ui/modules/" . "directives/")
+ ("/home/ghost/Workspace/python-django/southpolar/common/static/js/angular-ui/" . "modules/")
+ ("/home/ghost/Workspace/python-django/southpolar/portal/static/" . "js/")
+ ("/home/ghost/Workspace/python-django/southpolar/portal/" . "static/")
+ ("/home/ghost/Workspace/python-django/southpolar/rickshaw/" . "examples/")
+ ("/home/ghost/Workspace/python-django/southpolar/southpolar/" . "static/")
+ ("/home/ghost/Workspace/python-django/jquery-ui-bootstrap/" . "js/")
+ ("/home/ghost/Workspace/python-django/southpolar/solarcell/" . "templates/")
+ ("/home/ghost/Workspace/python-django/intemass/student/" . "templates/")
+ ("/home/ghost/Workspace/python-django/southpolar/common/management/" . "commands/")
+ ("/home/ghost/Workspace/python-django/southpolar/novus-nvd3-cfb8420/" . "examples/")
+ ("/home/ghost/Workspace/python-django/southpolar/member/static/" . "js/")
+ ("/home/ghost/Workspace/python-django/southpolar/common/static/js/" . "bootstrap/")
+ ("/home/ghost/Workspace/python-django/southpolar/member/" . "static/")
+ ("/home/ghost/Workspace/python-django/southpolar/common/static/" . "js/")
+ ("/home/ghost/Workspace/python-django/southpolar/common/" . "static/")
+ ("/home/ghost/Workspace/python-django/southpolar/" . "common/")
+ ("/home/ghost/Workspace/python-django/southpolar/turbine/static/" . "js/")
+ ("/home/ghost/Workspace/python-django/southpolar/turbine/" . "static/")
+ ("/home/ghost/Workspace/clojure/Logic-Starter/src/" . "logic_introduction/")
+ ("/home/ghost/Workspace/python-django/intemass/canvas/" . "static/")
+ ("/home/ghost/Workspace/python-django/intemass/report/static/" . "js/")
+ ("/home/ghost/Workspace/python-django/intemass/report/" . "static/")
+ ("/home/ghost/Workspace/python-django/kaas/portal/static/" . "js/")
+ ("/home/ghost/Workspace/python-django/kaas/portal/" . "static/")
+ ("/home/ghost/Workspace/python-django/kaas/common/static/" . "js/")
+ ("/home/ghost/Workspace/python-django/kaas/common/" . "static/")
+ ("/home/ghost/Workspace/python-django/kaas/" . "portal/")
+ ("/home/ghost/Workspace/python-django/intemass/question/" . "management/")
+ ("/home/ghost/Workspace/python-django/intemass/classroom/" . "templates/")
+ ("/home/ghost/Workspace/clojure/logic/src/" . "logic/")
+ ("/home/ghost/Workspace/python-django/intemass/" . "report/")
+ ("/home/ghost/Workspace/jstest/kaas-brunch/app/" . "scripts/")
+ ("/home/ghost/Workspace/clojure/cascalog/" . "src/")
+ ("/home/ghost/Workspace/clojure/ClojureProgramming/ch03-array-set/src/com/" . "clojurebook/")
+ ("/home/ghost/Workspace/clojure/ClojureProgramming/ch03-array-set/src/" . "com/")
+ ("/home/ghost/Workspace/clojure/ClojureProgramming/ch03-array-set/" . "src/")
+ ("/home/ghost/Workspace/clojure/ClojureProgramming/" . "ch04-concurrency-game/")
+ ("/home/ghost/Workspace/clojure/ClojureProgramming/ch04-concurrency-webcrawler/src/com/clojurebook/" . "concurrency/")
+ ("/home/ghost/Workspace/clojure/ClojureProgramming/ch04-concurrency-webcrawler/src/com/" . "clojurebook/")
+ ("/home/ghost/Workspace/clojure/ClojureProgramming/ch04-concurrency-webcrawler/src/" . "com/")
+ ("/home/ghost/Workspace/clojure/ClojureProgramming/ch04-concurrency-webcrawler/" . "src/")
+ ("/home/ghost/Workspace/clojure/clj-cdt/target/" . "stale/")
+ ("/home/ghost/Workspace/clojure/clj-cdt/" . "target/")
+ ("/home/ghost/Workspace/clojure/incanter/src/" . "incanter/")
+ ("/home/ghost/Workspace/clojure/incanter/" . "src/")
+ ("/home/ghost/Workspace/clojure/graphchi-java/src/edu/cmu/graphchi/" . "apps/")
+ ("/home/ghost/Workspace/clojure/graphchi-java/src/edu/cmu/" . "graphchi/")
+ ("/home/ghost/Workspace/clojure/graphchi-java/src/edu/" . "cmu/")
+ ("/home/ghost/Workspace/clojure/graphchi-java/src/" . "edu/")
+ ("/home/ghost/Workspace/clojure/graphchi-java/" . "src/")
+ ("/home/ghost/Workspace/clojure/clj.guava/test/clj/guava/" . "test/")
+ ("/home/ghost/Workspace/clojure/clj.guava/test/clj/" . "guava/")
+ ("/home/ghost/Workspace/clojure/clj.guava/test/" . "clj/")
+ ("/home/ghost/Workspace/clojure/clj.guava/" . "test/")
+ ("/home/ghost/Workspace/clojure/clj.guava/src/clj/" . "guava/")
+ ("/home/ghost/Workspace/clojure/clj.guava/src/" . "clj/")
+ ("/home/ghost/Workspace/clojure/cljs-todo/src/cljs-macros/" . "cljs_todo/")
+ ("/home/ghost/Workspace/clojure/cljs-todo/" . "src/")
+ ("/home/ghost/Workspace/clojure/ws-intro/src/" . "ws_intro/")
+ ("/home/ghost/Workspace/clojure/cn-clojure-meetup/" . "2011/")
+ ("/home/ghost/Workspace/clojure/cn-clojure-meetup/2012/cnclojure-meetup-slacker/" . "static/")
+ ("/home/ghost/Workspace/clojure/book-source/src/" . "joy/")
+ ("/home/ghost/Workspace/clojure/Noir-blog/src/noir_blog/" . "models/")
+ ("/home/ghost/Workspace/clojure/Noir-blog/src/" . "noir_blog/")
+ ("/home/ghost/Workspace/clojure/cascalog/src/clj/" . "cascalog/")
+ ("/home/ghost/Workspace/clojure/cascalog/src/" . "clj/")
+ ("/home/ghost/Workspace/clojure/c2/src/cljs/" . "c2/")
+ ("/home/ghost/Workspace/clojure/c2/src/" . "cljs/")
+ ("/home/ghost/Workspace/clojure/testapp/src/testapp/" . "view/")
+ ("/home/ghost/Workspace/clojure/testapp/src/" . "testapp/")
+ ("/home/ghost/Workspace/clojure/c2-demos/todoMVC/src/cljs/" . "imtodo/")
+ ("/home/ghost/Workspace/clojure/c2-demos/todoMVC/src/" . "cljs/")
+ ("/home/ghost/Workspace/clojure/testapp/spec/" . "testapp/")
+ ("/home/ghost/Workspace/clojure/testapp/" . "src/")
+ ("/home/ghost/Workspace/clojure/" . "ClojureProgramming/")
+ ("/home/ghost/Workspace/clojure/cljs-boilerplate/src/" . "project/")
+ ("/home/ghost/Workspace/clojure/cljs-boilerplate/cljs/src/" . "countdown/")
+ ("/home/ghost/Workspace/clojure/cljs-boilerplate/cljs/" . "src/")
+ ("/home/ghost/Workspace/clojure/cljs-boilerplate/" . "cljs/")
+ ("/home/ghost/Workspace/clojure/cljs-todo/src/clj/" . "cljs_todo/")
+ ("/home/ghost/Workspace/clojure/cljs-todo/src/cljs/" . "cljs_todo/")
+ ("/home/ghost/Workspace/clojure/cljs-todo/src/" . "cljs-macros/")
+ ("/home/ghost/Workspace/python-django/marking/templates/" . "studentv2/")
+ ("/home/ghost/Workspace/python-django/marking/" . "templates/")
+ ("/home/ghost/Workspace/python-django/" . "southpolar/")
+ ("/home/ghost/Workspace/cpptest/jgrade/src/" . "IO/")
+ ("/home/ghost/Workspace/cpptest/jgrade/tests/" . "stdio/")
+ ("/home/ghost/Workspace/cpptest/jgrade/t0/src/" . "HomeAutomation/")
+ ("/home/ghost/Workspace/cpptest/jgrade/t0/" . "src/")
+ ("/home/ghost/Workspace/cpptest/jgrade/docs/" . "STMicroelectronics/")
+ ("/home/ghost/Workspace/cpptest/jgrade/" . "tests/")
+ ("/etc/" . "init/")
+ ("/home/ghost/Workspace/clojure/testproject/" . "resources/")
+ ("/home/ghost/Workspace/machinelearning/mochi/src/mochi/nlp/" . "process/")
+ ("/home/ghost/Workspace/machinelearning/mochi/src/mochi/" . "nlp/")
+ ("/home/ghost/Workspace/machinelearning/mochi/src/" . "mochi/")
+ ("/home/ghost/Workspace/machinelearning/mochi/" . "src/")
+ ("/home/ghost/Workspace/machinelearning/" . "mochi/")
+ ("/home/ghost/.emacs.d/elpa/" . "starter-kit-2.0.3/")
+ ("/home/ghost/Workspace/cpptest/" . "jgrade/")
+ ("/mnt/hgfs/embeded/" . "cppdsaa3e/")
+ ("/mnt/hgfs/" . "embeded/")
+ ("/mnt/" . "hgfs/")
+ ("/" . "home/")
+ ("/home/ghost/Workspace/cn-clojure-meetup/" . "2011/")
+ ("/home/ghost/.emacs.d/" . "etc/")
+ ("/home/ghost/Workspace/scipy_codes/" . "15/")
+ ("/home/ghost/Workspace/graphlabapi/" . "tests/")
+ ("/home/ghost/Workspace/jinja-bootstrap/bootstrap/static/" . "css/")
+ ("/home/ghost/Workspace/jinja-bootstrap/example_project_django/" . "root/")
+ ("/home/ghost/Workspace/jinja-bootstrap/bootstrap/templates/bootstrap/" . "layouts/")
+ ("/home/ghost/Workspace/jinja-bootstrap/bootstrap/templates/" . "bootstrap/")
+ ("/home/ghost/Workspace/jinja-bootstrap/bootstrap/" . "templates/")
+ ("/home/ghost/Workspace/jinja-bootstrap/" . "example_project_django/")
+ ("/home/ghost/Workspace/DeepLearningTutorials/" . "code/")
+ ("/home/ghost/Workspace/storm-on-dotcloud/" . "storm/")
+ ("/home/" . "ghost/")
+ ("/home/ghost/Workspace/segment/" . "src/")
+ ("/home/ghost/Workspace/" . "modbustest/")
+ ("/home/ghost/" . "Workspace/")
+ ("/var/www/wordpress/wp-includes/" . "css/")
+ ("/var/www/wordpress/" . "wp-includes/")
+ ("/var/www/wordpress/wp-content/themes/Foundation/" . "stylesheets/")
+ ("/var/www/wordpress/wp-content/themes/" . "Foundation/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/ghost/Workspace/python-django/southpolar/common/"
+ "/home/ghost/Workspace/python-django/django-comet/comet/management/commands/"
+ "/home/ghost/Workspace/python-django/django-comet/comet/"
+ "/home/ghost/Workspace/python-django/kaas/portal/"
+ "/home/ghost/Workspace/python-django/southpolar/turbine/"
+ "/home/ghost/Workspace/python-django/southpolar/turbine/static/js/"
+ "/home/ghost/.emacs.d/"
+ "/home/ghost/Workspace/python-django/kaas/member/templates/"
+ "/home/ghost/Workspace/python-django/southpolar/member/static/js/"
+ "/home/ghost/Workspace/python-django/southpolar/member/"
+ "/home/ghost/.emacs.d/elpa/starter-kit-2.0.3/"
+ "/home/ghost/"
+ "/home/ghost/Workspace/modbustest/"
+ "/home/ghost/Workspace/python-django/southpolar/rickshaw/examples/css/"
+ "/home/ghost/Workspace/python-django/southpolar/rickshaw/examples/"
+ "/home/ghost/Workspace/python-django/southpolar/common/static/js/"
+ "/home/ghost/Workspace/python-django/southpolar/common/templates/"
+ "/home/ghost/Workspace/python-django/southpolar/turbine/templates/"
+ "/home/ghost/Workspace/python-django/southpolar/member/templates/"
+ "/home/ghost/Workspace/python-django/southpolar/solarcell/templates/"
+ "/home/ghost/Workspace/jstest/angular-d3-demo/"
+ "/home/ghost/Workspace/python-django/southpolar/common/static/css/"
+ "/home/ghost/Workspace/python-django/intemass/report/static/js/"
+ "/home/ghost/Workspace/python-django/intemass/"
+ "/home/ghost/Workspace/python-django/southpolar/southpolar/"
+ "/home/ghost/Workspace/python-django/southpolar/common/static/js/angular-ui/"
+ "/home/ghost/Workspace/python-django/southpolar/common/static/js/angular-ui/modules/directives/modal/"
+ "/home/ghost/Workspace/python-django/southpolar/portal/static/js/"
+ "/home/ghost/Workspace/python-django/jquery-ui-bootstrap/js/"
+ "/home/ghost/Workspace/python-django/jquery-ui-bootstrap/"
+ "/home/ghost/Workspace/python-django/intemass/student/templates/"
+ "/home/ghost/Workspace/python-django/intemass/paper/"
+ "/home/ghost/Workspace/python-django/intemass/student/"
+ "/home/ghost/Workspace/python-django/southpolar/portal/"
+ "/home/ghost/Workspace/python-django/intemass/canvas/"
+ "/home/ghost/Workspace/python-django/southpolar/common/management/commands/"
+ "/home/ghost/Workspace/python-django/southpolar/novus-nvd3-cfb8420/examples/"
+ "/home/ghost/Workspace/python-django/southpolar/common/static/js/bootstrap/"
+ "/home/ghost/Workspace/clojure/Logic-Starter/src/logic_introduction/"
+ "/home/ghost/Workspace/clojure/Logic-Starter/"
+ "/home/ghost/Workspace/python-django/intemass/algo/"
+ "/home/ghost/Workspace/python-django/intemass/report/templates/"
+ "/home/ghost/Workspace/python-django/kaas/portal/static/js/"
+ "/home/ghost/Workspace/python-django/kaas/member/"
+ "/home/ghost/Workspace/python-django/kaas/common/static/js/"
+ "/home/ghost/Workspace/python-django/kaas/common/templates/"
+ "/home/ghost/Workspace/python-django/intemass/question/"
+ "/home/ghost/Workspace/python-django/intemass/assignment/"
+ "/home/ghost/Workspace/python-django/intemass/classroom/templates/"
+ "/home/ghost/Workspace/python-django/intemass/classroom/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "tastyalchemy.py"
+ "runcomet.py"
+ "__init__.py"
+ "utils.py"
+ "tests.py"
+ "backends.py"
+ "application.py"
+ "resource.py"
+ "turbine_controllers.coffee"
+ "init.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/ghost/Workspace/python-django/southpolar/common/" (20613 54774 200966 316000) "models.py" "../" "./" "__init__.py" "static/" "views.py" "models.pyc" "tests.py" "management/" "tasks.py" "__init__.pyc" "templates/")
+
+ ("/home/ghost/Workspace/python-django/southpolar/" (20620 31746 580605 139000) "common/" "member/" ".git/" "rickshaw/" "portal/" "TODO" "../" "./" "southpolar/" "meteor/" "test.txt" "battery/" "novus-nvd3-cfb8420/" "README.md" "clean.sh" "surveillance/" "solarcell/" "test.json" "manage.py" "serviceconf/" "report/" "docs/" "power/" ".gitignore" "turbine/")
+
+ ("/home/ghost/Workspace/python-django/django-comet/comet/management/commands/" (20631 12740 473180 230000) "../" "./" "__init__.py" "runcomet.py")
+
+ ("/home/ghost/Workspace/python-django/django-comet/comet/management/" (20631 12740 473180 230000) "commands/" "../" "./" "__init__.py")
+
+ ("/home/ghost/Workspace/python-django/django-comet/comet/" (20631 12740 473180 230000) "models.py" "../" "./" "__init__.py" "backends.py" "views.py" "utils.py" "tests.py" "application.py" "handlers.py" "management/")
+
+ ("/home/ghost/Workspace/python-django/django-comet/" (20631 12740 473180 230000) ".git/" "jquery.websocket.coffee" "comet/" "../" "./" "README.rst" "comet.coffee" "setup.py" ".gitignore")
+
+ ("/home/ghost/Workspace/python-django/" (20631 12736 33180 176000) "crossfilter/" "build/" "guide-to-testing-in-django/" "django-comet/" "pycharm-2.6.1.tar.gz" "kaas/" "intemass/" "cffi/" "debugger/" "../" "./" "southpolar/" "pymodbus/" "svdfeature-1.2.1/" "segment/" "c3/" "nvd3/" "angular-panels/" "angular-ui/" "django-tastypie/" "jquery-ui-bootstrap/" "src/" "d3/" "WebStorm-5.0.1.tar.gz" "django-tastypie-extendedmodelresource/" "python-seminar/" "intemass-canvas/")
+
+ ("/home/ghost/Workspace/python-django/kaas/portal/" (20566 51522 623405 973000) "models.py" "../" "./" "__init__.py" "urls.py" "static/" "views.py" "models.pyc" "tests.py" "resource.py" "__init__.pyc" "templates/")
+
+ ("/home/ghost/Workspace/python-django/southpolar/turbine/" (20619 32275 823514 173000) "models.py" "../" "./" "__init__.py" "urls.py" "static/" "views.py" "models.pyc" "urls.pyc" "tests.py" "admin.py" "resource.py" "admin.pyc" "__init__.pyc" "templates/")
+
+ ("/home/ghost/Workspace/python-django/southpolar/turbine/static/js/" (20607 64214 36131 356000) "../" "turbine_controllers.coffee" "./" "turbine_services.js" "turbine_services.coffee" "turbine_directives.js" "turbine_controllers.js" "turbine_directives.coffee")
+
+ ("/home/ghost/" (20608 36762 903053 401000) "Documents/" ".cache/" ".pgadmin_histoqueries" ".live-packs/" ".gnome2/" ".pgpass" ".bashrc" ".mozilla/" ".theano/" "Workspace/" ".dbus/" ".gem/" "Music/" ".gvfs/" "crack/" ".dbshell" ".vimfuzzyfinder" ".local/" ".goutputstream-OSTKEW" ".pulse/" ".psql_history" ".smex-items" ".zshrc" ".goutputstream-YIF6CW" ".m2/" ".vimrc" ".jline-clojure.main.history" ".zsh_history" "Public/" ".bash_login" ".goutputstream-9DPLCW" "../" "./" ".thunderbird/" ".ssh/" ".apport-ignore.xml" ".macromedia/" ".fontconfig/" ".xsession-errors.old" ".WebIde50/" ".pam_environment" ".emacs.d.bak/" ".compiz-1/" "Pictures/" ".matplotlib/" ".emacs.d/" ".adobe/" ".config/" ".openyoudao/" ".TeXmacs/" ".xinput.d/" ".overtone/" ".texmf-var/" ".gnome/" ".goutputstream-XS30BW" ".gksu.lock" ".python27_compiled/" ".appcfg_nag" ".zsh-update" ".nrepl-history.eld" ".gnupg/" ".viminfo" ".esd_auth" ".goutputstream-EVKVJW" ".bash_logout" "Ubuntu One/" ".Xauthority" ".mysql_history" "News/" ".ido.last" ".goutputstream-KPZNLW" ".dmrc" "Videos/" ".rvm/" ".lyx/" ".node-gyp/" ".xsession-errors" ".gtk-bookmarks" ".zcompdump" ".gstreamer-0.10/" ".PyCharm20/" ".bundler/" ".lein/" ".subversion/" ".jline-reply.history" "tmp/" ".gnome2_private/" ".neocon/" ".pki/" ".npm/" ".goutputstream-73D8IW" ".dotcloud/" ".ICEauthority" ".matlab/" ".pip/" "Downloads/" ".oh-my-zsh/" "alias/" "nvm/" "src/" ".git-credential-cache/" ".sunpinyin/" ".vim-fuf-data/" ".goutputstream-F4OBDW" ".goutputstream-OGJRDW" ".gitconfig" ".zdirs" ".goutputstream-S9EOLW" ".goutputstream-KVV1CW" ".pulse-cookie" ".gnash/" ".slime-history.eld" ".gconf/" ".profile" ".lighttable/" ".goutputstream-UXQUCW" ".rbx/" ".mission-control/" ".vimperator/" "bin/" ".lesshst" ".recentf" ".vim/" "Templates/" ".emacs-places" ".goutputstream-MURUGW" ".bash_history" ".ddd/" ".newsrc-dribble" ".emacs-live.el" ".goutputstream-JYDKJW" "v0.6.14/" ".java/" "Desktop/" ".zlogin" "v0.8.9/" ".vim_mru_files" ".thumbnails/" ".zshrc.pre-oh-my-zsh" ".aptitude/" ".Vim Regular Expression Result" ".pgadmin3")
+
+ ("/home/ghost/Workspace/python-django/kaas/member/templates/" (20541 61304 844291 397000) "../" "./" "pmember-detail.html" "pmembers.html")
+
+ ("/home/ghost/Workspace/python-django/kaas/member/" (20550 32639 253467 332000) "models.py" "../" "./" "__init__.py" "urls.py" "views.py" "models.pyc" "tests.py" "admin.py" "resource.py" "__init__.pyc" "templates/")
+
+ ("/home/ghost/.emacs.d/etc/" (20606 41336 54064 627000) "etags-regexps" "../" "./" "snippets/")
+
+ ("/home/ghost/.emacs.d/elpa/" (20606 42366 594077 250000) "coffee-mode-0.4.1/" "djvu-0.5/" "../" "./" "rainbow-mode-0.2/" "js2-mode-20090814/" "archives/")
+
+ ("/home/ghost/.emacs.d/" (20606 42237 286075 667000) ".git/" "lib/" "../" "./" "etc/" "README.md" "init.el" "tmp/" "elpa/" "manifest.el" "packs/" ".gitmodules" ".gitignore" "installer/")
+
+ ("/home/ghost/Workspace/python-django/southpolar/member/" (20606 42780 430082 321000) "models.py" "../" "./" "__init__.py" "urls.py" "static/" "views.py" ".#resource.py" "tests.py" "admin.py" "resource.py" "templates/")
+
+ ("/home/ghost/Workspace/python-django/kaas/" (20564 36772 265101 857000) "common/" "member/" ".git/" "portal/" "TODO" "../" "./" "front/" "README.md" ".idea/" "clean.sh" "manage.py" "serviceconf/" "report/" "docs/" ".gitignore")
+
+ ("/home/ghost/.emacs.d/elpa/starter-kit-2.0.3/" (20598 25791 704396 373000) "starter-kit.el" "#starter-kit-misc.el#" "starter-kit-autoloads.el" "../" "./" ".#starter-kit-misc.el" "starter-kit-misc.el" "starter-kit-pkg.el" "starter-kit-defuns.el")
+
+ ("/home/ghost/Workspace/modbustest/" (20591 61843 341349 700000) "../" "./" "syncclient.py" "asyncserver.py" "testclient.py")
+
+ ("/home/ghost/Workspace/" (20583 43784 322055 985000) "marquisthunder.github.com/" "matlab/" "coffee/" "scipy_codes/" "jstest/" "../" "./" "modbustest/" "python-django/" "cpptest/" "aisoftware/" "dsl/" "Vspr/" "graphlabapi/" "hw2_rottenpotatoes/" "init.el" "oopc/" "graphchi/" "clojure/" "machinelearning/")
+
+ ("/home/ghost/Workspace/python-django/southpolar/rickshaw/examples/css/" (20573 24766 112814 262000) "lines.css" "../" "./" "extensions.css")
+
+ ("/home/ghost/Workspace/python-django/southpolar/rickshaw/" (20578 58024 634542 442000) ".git/" "Makefile" "rickshaw.js" "rickshaw.min.js" "rickshaw.min.css" "../" "./" "LICENSE" "vendor/" "examples/" "rickshaw.css" "README.md" "tutorial/" "node_modules/" "src/" "tests/" "package.json" ".gitignore")
+
+ ("/home/ghost/Workspace/python-django/southpolar/turbine/templates/" (20578 49540 550438 517000) "turbines.jade" "turbine-detail.jade" "../" "./" "#turbines.jade#")
+
+ ("/home/ghost/Workspace/python-django/southpolar/rickshaw/examples/js/" (20573 24766 112814 262000) "../" "./" "extensions.js")
+
+ ("/home/ghost/Workspace/python-django/southpolar/common/templates/" (20576 7969 709403 192000) "base.jade" "../" "./" "foot.jade" "404.jade" "500.jade" "head.jade")
+
+ ("/home/ghost/Workspace/python-django/southpolar/solarcell/templates/" (20578 21123 746090 427000) "solarcells.jade" "../" "./" "solarcell-detail.jade")
+
+ ("/home/ghost/Workspace/python-django/southpolar/solarcell/" (20578 38992 10309 303000) "models.py" "../" "./" "__init__.py" "urls.py" "views.py" "models.pyc" "urls.pyc" "tests.py" "__init__.pyc" "templates/")
+
+ ("/home/ghost/Workspace/python-django/segment/" (20345 49346 76980 626000) "../" "./" ".idea/" "src/" "segment.iml" "out/")
+
+ ("/home/ghost/Workspace/jstest/angular-d3-demo/" (20576 11446 69445 775000) ".git/" "../" "./" "index.html" "README.md" "app.js" "style.css")
+
+ ("/home/ghost/Workspace/jstest/" (20576 11435 393445 644000) "kaas-brunch/" "angular-d3-demo/" "pyautolib/" ".gclient_entries" "../" "impress.js/" "./" "clock.png" "select2/" "angular-phonecat/" "angular-express-blog/" "depot_tools/" "leak-finder/" "rasterize.js" ".gclient")
+
+ ("/home/ghost/Workspace/python-django/southpolar/common/static/css/" (20576 7939 809402 826000) "rickshaw.min.css" "select2.css" "jquery-ui-1.8.16.custom.css" "../" "./" "rickshaw.css" "index.css" "angular-ui.css" "angular-ui.min.css" "nv.d3.css" "text.css" "spinner.gif" "images/" "select2.png" "reset.css" "bootstrap.css" "jquery-ui.1.8.23.css")
+
+ ("/home/ghost/Workspace/python-django/southpolar/common/static/js/" (20576 7901 845402 360000) "southpolar.coffee" "rickshaw.js" "rickshaw.min.js" "select2.min.js" "nv.d3.min.js" "third-party/" "../" "./" "bootstrap_directives.coffee" "d3.v2.js" "jquery-ui-1.8.16.custom.min.js" "bootstrap/" "angular-ui/" "bootstrap_directives.js" "nv.d3.js" "southpolar.js" "jquery-1.6.2.min.js" "angular/")
+
+ ("/home/ghost/Workspace/python-django/intemass/report/static/js/" (20570 46652 946680 410000) "report_teacher.js" "../" "./" "report_reviewquestion.js" "report_paper.js" "report_student.js")
+
+ ("/home/ghost/Workspace/python-django/intemass/report/" (20573 1670 524531 355000) "models.py" "../" "./" "forms.pyc" "__init__.py" "urls.py" "static/" "views.py" "views.pyc" "models.pyc" "urls.pyc" "tests.py" "__init__.pyc" "forms.py" "templates/")
+
+ ("/home/ghost/Workspace/python-django/intemass/" (20576 26190 992064 418000) "common/" "paper/" ".git/" "portal/" "backup.sql" "TODO" "settings.pyc" "../" "./" "classroom/" "__init__.py" "nltk_data/" "urls.py" "static/" "README.TXT" "urls.pyc" "teacher/" "canvas/" "FILES" "settings.py" "student/" ".idea/" "clean.sh" "algo/" "question/" "selenium_ide_test/" "images/" "assignment/" "itempool/" "entity/" "annoying/" "__init__.pyc" "manage.py" "report/" "docs/" ".gitignore")
+
+ ("/home/ghost/Workspace/python-django/southpolar/common/static/js/angular-ui/modules/directives/select2/" (20567 44548 579425 958000) "../" "./" ".DS_Store" "select2.js")
+
+ ("/home/ghost/Workspace/python-django/southpolar/common/static/js/angular-ui/modules/directives/modal/" (20567 44548 579425 958000) "../" "./" "modal.js")
+
+ ("/home/ghost/Workspace/python-django/southpolar/common/static/js/angular-ui/modules/directives/" (20567 44548 579425 958000) "../" "./" "select2/" "modal/")
+
+ ("/home/ghost/Workspace/python-django/southpolar/common/static/js/angular-ui/modules/" (20567 44548 579425 958000) "../" "./" "directives/")
+
+ ("/home/ghost/Workspace/python-django/southpolar/common/static/js/angular-ui/" (20571 55278 44144 513000) "angular-ui-ieshiv.js" "angular-ui-ieshiv.min.js" "../" "./" "modules/" "angular-ui.min.js" "angular-ui.js")
+
+ ("/home/ghost/Workspace/python-django/southpolar/portal/static/js/" (20568 29108 592725 798000) "portal_controllers.coffee" "portal_controllers.js" "../" "./" "portal_services.coffee" "portal_directives.coffee" "portal_directives.js" "portal_services.js")
+
+ ("/home/ghost/Workspace/python-django/southpolar/portal/static/" (20567 44548 599425 957000) "../" "./" "js/")
+
+ ("/home/ghost/Workspace/python-django/southpolar/portal/" (20573 19702 956752 242000) "models.py" "../" "./" "__init__.py" "urls.py" "static/" "views.py" "views.pyc" "models.pyc" "urls.pyc" "tests.py" "resource.pyc" "resource.py" "__init__.pyc" "templates/")
+
+ ("/home/ghost/Workspace/python-django/southpolar/member/static/js/" (20572 14699 740450 230000) "member_controllers.coffee" "../" "./" "member_services.coffee" "member_controllers.js" "member_services.js")
+
+ ("/home/ghost/Workspace/python-django/southpolar/rickshaw/examples/" (20573 24766 120814 262000) "bars.html" "stops.html" "fixed.html" "colors.html" "status.html" "formatter.html" "../" "ajax.html" "jsonp.html" "./" "hover.html" "index.html" "simple.html" "lines.html" "data/" "negative.html" "scatterplot.html" "images/" "series.html" "y_axis.html" "js/" "css/" "start.html" "extensions.html" "screenshots/")
+
+ ("/home/ghost/Workspace/python-django/southpolar/southpolar/static/" (20572 61646 684463 251000) "../" "./")
+
+ ("/home/ghost/Workspace/python-django/jquery-ui-bootstrap/js/" (20565 5129 253517 26000) "../" "./" "jquery-ui-1.8.16.custom.min.js" "jquery-1.6.2.min.js" "demo.js")
+
+ ("/home/ghost/Workspace/python-django/jquery-ui-bootstrap/" (20565 5129 253517 26000) ".git/" "third-party/" "../" "./" "index.html" "bootstrap/" "README.md" "js/" "css/")
+
+ ("/home/ghost/Templates/" (20302 56389 563011 871000) "../" "./")
+
+ ("/home/" (20302 54572 601870 591000) "../" "./" "ghost/")
+
+ ("/home/ghost/Workspace/python-django/southpolar/member/templates/" (20573 19921 892754 923000) "pmembers.jade" "../" "./" "pmember-detail.jade")
+
+ ("/home/ghost/Workspace/python-django/southpolar/southpolar/" (20573 19843 352753 961000) "settings.pyc" "../" "./" "__init__.py" "urls.py" "static/" "urls.pyc" "settings.py" "wsgi.py" "__init__.pyc" "wsgi.pyc")
+
+ ("/home/ghost/Workspace/python-django/intemass/student/templates/" (20572 64828 524502 226000) "student_all.json" "student_allhistoryanswers.json" "student_takeassignment.html" "../" "./" "student_allcustompapers.json" "takeselectiveexam.html" "student_add.html" "student_allassignedassignments.json" "student_index.html" "student_assignmentsummarize.html" "student_profile.html" "student_custompaper.html")
+
+ ("/home/ghost/Workspace/python-django/intemass/student/" (20572 65356 608508 696000) "models.py" "../" "./" "__init__.py" "urls.py" "static/" "views.py" "tests.py" "admin.py" "forms.py" "templates/")
+
+ ("/home/ghost/Workspace/python-django/intemass/paper/" (20572 64828 504502 226000) "models.py" "../" "./" "__init__.py" "urls.py" "static/" "views.py" "tests.py" "admin.py" "forms.py" "templates/")
+
+ ("/home/ghost/Workspace/python-django/intemass/question/" (20572 64828 504502 226000) "models.py" "../" "./" "__init__.py" "urls.py" "static/" "views.py" "tests.py" "admin.py" "management/" "templates/")
+
+ ("/home/ghost/Workspace/python-django/intemass/canvas/" (20570 46694 358680 916000) "models.py" "../" "./" "__init__.py" "urls.py" "static/" "views.py" "views.pyc" "models.pyc" "urls.pyc" "tests.py" "__init__.pyc" "forms.py" "templates/")
+
+ ("/home/ghost/Workspace/python-django/southpolar/common/management/commands/" (20572 7652 420363 905000) "../" "./" "adddata.py")
+
+ ("/home/ghost/Workspace/python-django/southpolar/common/management/" (20570 64441 882898 314000) "commands/" "../" "./" "__init__.py")
+
+ ("/home/ghost/Workspace/python-django/southpolar/novus-nvd3-cfb8420/examples/" (20571 31799 0 0) "multiChart.html" "horizon.html" "multiBarHorizontalChart.html" "bullet.html" "lineWithFisheyeChart.html" "multiBar.html" "lineWithFocusChart.html" "nations.json" "stackedArea.html" "pieChart.html" "../" "./" "linePlusBarChart.html" "stream_layers.js" "stackedAreaChart.html" "discreteBarChart.html" "line.html" "historicalBar.html" "sparkline.html" "cumulativeLineChart.html" "legend.html" "crossfilterWithTables.html" "images/" "crossfilter.html" "scatter.html" "lineChartSVGResize.html" "scatterChart.html" "crossfilterWithDimentions.html" "bulletChart.html" "sparklinePlus.html" "pie.html" "multiBarChart.html" "indentedtree.html" "lineChart.html")
+
+ ("/home/ghost/Workspace/python-django/southpolar/novus-nvd3-cfb8420/" (20572 1152 656284 286000) "Makefile" "LICENSE.md" "lib/" "nv.d3.min.js" "deprecated/" "../" "./" "examples/" "build.bat" "README.md" "nv.d3.js" "src/" ".gitignore")
+
+ ("/home/ghost/Workspace/python-django/southpolar/common/static/" (20571 55420 492146 257000) "img/" "../" "./" "angular-1.1.0/" "js/" "css/")
+
+ ("/home/ghost/Workspace/python-django/southpolar/member/static/" (20567 63176 612340 334000) "../" "./" "js/")
+
+ ("/home/ghost/Workspace/python-django/southpolar/common/static/js/bootstrap/" (20567 44548 587425 958000) "bootstrap-modal.js" "bootstrap-tabs.js" "bootstrap-alerts.js" "bootstrap-twipsy.js" "../" "./" "bootstrap-popover.js" "bootstrap-dropdown.js" "bootstrap-buttons.js" "tests/" "bootstrap-scrollspy.js")
+
+ ("/lib/" (20388 27557 117828 582000) "plymouth/" "liblvm2app.so.2.2" "libfuse.so.2" "terminfo/" "libxtables.so.7.0.0" "libproc-3.2.8.so" "libbrlapi.so.0.5" "libipq.so.0.0.0" "ld-linux.so.2" "libnss_mdns4.so.2" "libulockmgr.so.1" "ufw/" "cpp" "libipq_pic.so.0" "libiw.so.30" "libply-splash-core.so.2.0.0" "libnl-genl-3.so.200" "recovery-mode/" "../" "./" "resolvconf/" "libiptc.so.0.0.0" "libip4tc.so.0" "libnewt.so.0.52" "libply-boot-client.so.2.0.0" "apparmor/" "libnl-3.so.200" "modules/" "libx86.so.1" "security/" "libdevmapper-event.so.1.02.1" "libnl-3.so.200.3.0" "libbrlapi.so.0.5.6" "brltty/" "klibc-bhN-zLH5wUTKSCGch2ba2xqTtLE.so" "linux-sound-base/" "libdevmapper.so.1.02.1" "libply-splash-graphics.so.2.0.0" "libfuse.so.2.8.6" "libip4tc.so.0.0.0" "hdparm/" "libply-splash-graphics.so.2" "libply.so.2.0.0" "systemd/" "libnss_mdns.so.2" "libnl-genl-3.so.200.3.0" "libulockmgr.so.1.0.1" "libxtables.so.7" "libiptc.so.0" "libip6tc.so.0" "x86_64-linux-gnu/" "libnss_mdns_minimal.so.2" "libnss_mdns4_minimal.so.2" "libnewt.so.0.52.11" "libply.so.2" "init/" "lsb/" "libnss_mdns6.so.2" "libsysfs.so.2.0.1" "libply-boot-client.so.2" "libnss_mdns6_minimal.so.2" "libply-splash-core.so.2" "crda/" "oss-compat/" "firmware/" "libip6tc.so.0.0.0" "udev/" "xtables/" "libipq_pic.so.0.0.0" "libipq.so.0" "libsysfs.so.2" "i386-linux-gnu/")
+
+ ("/home/ghost/Workspace/python-django/southpolar/turbine/static/" (20568 26053 236688 371000) "../" "./" "js/")
+
+ ("/home/ghost/Workspace/clojure/Logic-Starter/src/logic_introduction/" (20559 21300 348079 277000) "push.clj" "join.clj" "decl_model.clj" "numbers.clj" "subs.clj" "database.clj" "core.clj" "../" "perm.clj" "./" "extend.clj" "polymorphism.clj" "fetch.clj" "facts.clj")
+
+ ("/home/ghost/Workspace/clojure/Logic-Starter/src/" (20559 17482 92032 507000) "../" "./" "logic_introduction/")
+
+ ("/home/ghost/Workspace/clojure/Logic-Starter/" (20559 19601 580058 469000) ".git/" "../" "./" "README" "target/" "test/" "src/" ".gitignore" "project.clj")
+
+ ("/home/ghost/Workspace/python-django/intemass/canvas/static/" (20517 1218 812874 335000) "../" "./" "js/" "css/")
+
+ ("/home/ghost/Workspace/python-django/intemass/report/static/" (20517 1220 80874 353000) "../" "./" "js/" "css/")
+
+ ("/home/ghost/Workspace/python-django/intemass/report/templates/" (20552 38584 599145 712000) "exam_all.json" "exam_detail.html" "report_question.html" "report_paper.html" "../" "./" "report_studentanswer.html" "report_student.html" "report_teacher.html")
+
+ ("/home/ghost/Workspace/python-django/intemass/algo/" (20552 37123 563127 816000) "standard.pyc" "models.py" "../" "./" "__init__.py" "models.pyc" "tests.py" "scheme_lang.pyc" "markscheme.py" "standard.py" "markscheme.pyc" "answer.pyc" "__init__.pyc" "canvascompare.pyc" "testdata/" "scheme_lang.py" "answer.py" "canvascompare.py")
+
+ ("/home/ghost/Workspace/python-django/svdfeature-1.2.1/" (20544 51378 386578 136000) "solvers/" "Makefile" "apex_svd_data.cpp" "tools/" "apex_svd_model.h" "apex_reg_tree.o" "apex_svd.cpp" "../" "./" "svd_feature.cpp" "README" "apex_svd_data.h" "demo/" "apex-utils/" "apex_svd_data.o" "apex_svd.h" "svd_feature_infer" "svd_feature" "apex_svd.o" "apex-tensor/" "svd_feature_infer.cpp")
+
+ ("/home/ghost/Workspace/python-django/kaas/portal/static/js/" (20541 62957 996311 649000) "controllers.coffee" "portal_controllers.coffee" "portal_controllers.js" "../" "./" "kaasportal_controllers.js")
+
+ ("/home/ghost/Workspace/python-django/kaas/portal/templates/" (20541 62562 220306 802000) "login.html" "../" "./" "index.html")
+
+ ("/home/ghost/Workspace/python-django/kaas/portal/static/" (20540 48265 707328 898000) "../" "./" "js/")
+
+ ("/home/ghost/Workspace/python-django/kaas/common/" (20540 48265 703328 899000) "models.py" "../" "./" "__init__.py" "static/" "views.py" "tests.py" "templates/")
+
+ ("/home/ghost/Workspace/python-django/kaas/common/static/" (20540 48265 691328 897000) "../" "./" "js/" "css/")
+
+ ("/home/ghost/Workspace/python-django/kaas/common/static/js/" (20540 49722 315346 741000) "select2.min.js" "jquery-1.7.2.min.js" "../" "./" "front.coffee" "front.js" "angular-ui/" "jquery-ui-1.8.20.custom.min.js" "kaasfront.js" "angular/")
+
+ ("/home/ghost/Workspace/python-django/kaas/common/templates/" (20539 34601 58358 737000) "head.html" "../" "./" "500.html" "foot.html" "404.html" "base.html")
+
+ ("/home/ghost/Workspace/python-django/intemass/assignment/" (20537 28178 532674 509000) "models.py" "../" "./" "forms.pyc" "__init__.py" "urls.py" "static/" "views.py" "views.pyc" "models.pyc" "urls.pyc" "tests.py" "admin.py" "admin.pyc" "__init__.pyc" "forms.py" "templates/")
+
+ ("/home/ghost/Workspace/python-django/intemass/question/management/" (20536 62708 768294 707000) "commands/" "../" "./" "__init__.py")
+
+ ("/home/ghost/Workspace/python-django/intemass/classroom/" (20537 26421 64652 983000) "models.py" "../" "./" "forms.pyc" "__init__.py" "urls.py" "static/" "views.py" "views.pyc" "models.pyc" "urls.pyc" "tests.py" "admin.py" "admin.pyc" "__init__.pyc" "forms.py" "templates/")
+
+ ("/home/ghost/Workspace/python-django/intemass/classroom/templates/" (20537 25786 692645 212000) "classroom_all.json" "../" "./" "classroom_detail.html" "classroom_getstudents.json")
+
+ ("/home/ghost/Workspace/python-django/intemass/itempool/" (20526 11348 923032 772000) "models.py" "../" "./" "forms.pyc" "__init__.py" "urls.py" "static/" "views.py" "views.pyc" "models.pyc" "urls.pyc" "tests.py" "admin.py" "admin.pyc" "__init__.pyc" "forms.py" "templates/")
+
+ ("/home/ghost/Workspace/clojure/logic/src/logic/" (20536 31756 594065 260000) "core.clj" "../" "./")
+
+ ("/home/ghost/Workspace/clojure/logic/" (20536 31966 954067 838000) "../" "./" "doc/" "README.md" "test/" "src/" ".gitignore" "project.clj")
+
+ ("/home/ghost/Workspace/clojure/logic/src/" (20536 31756 594065 260000) "../" "./" "logic/")
+
+ ("/home/ghost/Workspace/jstest/kaas-brunch/app/scripts/" (20535 28050 939774 755000) "controllers.coffee" "filters.coffee" "../" "./" "directives.coffee" "services.coffee")
+
+ ("/home/ghost/Workspace/jstest/kaas-brunch/" (20534 14138 938801 562000) "NaN/" ".git/" "CONVENTIONS.md" "config.coffee" "CONTRIBUTORS.md" "../" "./" "LICENSE" "NEWS.md" "vendor/" "app/" "README.md" "_public/" "node_modules/" "test/" "AUTHORS.md" "TODO.md" "scripts/" "package.json" ".gitignore")
+
+ ("/home/ghost/Workspace/jstest/kaas-brunch/app/" (20534 6167 994703 923000) "../" "./" "styles/" "assets/" "app.coffee" "scripts/" "init.coffee")
+
+ ("/home/ghost/.emacs.d/elpa/jade-mode-0.1/" (20535 14545 643609 323000) "jade-mode-pkg.elc" "../" "./" "jade-mode-autoloads.el" "jade-mode.el" "jade-mode-pkg.el" "jade-mode.elc")
+
+ ("/home/ghost/Workspace/jstest/kaas-brunch/app/assets/" (20534 8274 402729 726000) "font/" "img/" "../" "./" "index.jade" "index.html" "partials/")
+
+ ("/home/ghost/Workspace/clojure/c2/" (20535 13282 499593 850000) "README.markdown" ".git/" "vrepl/" "../" "./" "LICENSE" "target/" ".lein-cljsbuild-compiler-1/" "CHANGES.markdown" ".lein-cljsbuild-compiler-0/" "TODO.markdown" "resources/" "test/" "src/" ".generated/" ".gitmodules" "out/" ".gitignore" "project.clj")
+
+ ("/home/ghost/Workspace/clojure/c2/src/cljs/c2/" (20535 13282 499593 850000) "event.cljs" "util.cljs" "../" "./" "#dom.cljs#" "dom.cljs" "core.cljs")
+
+ ("/home/ghost/Workspace/clojure/clj.guava/src/clj/guava/" (20535 13169 511592 465000) "string.clj" "../" "./" "hash.clj" "cache.clj" "primitive/" "eventbus.clj" "collect.clj" "os.clj" "#base.clj#" "base.clj")
+
+ ("/home/ghost/.emacs.d/elpa/clojure-mode-1.11.5/" (20535 5729 787501 334000) "clojure-mode.el" "clojure-mode-autoloads.el" "clojure-mode.elc" "clojure-mode-pkg.el" "../" "./" "clojure-mode-pkg.elc")
+
+ ("/home/ghost/.emacs.d/elpa/starter-kit-lisp-2.0.3/" (20535 5726 163501 289000) "starter-kit-lisp-autoloads.el" "starter-kit-lisp.elc" "../" "./" "starter-kit-lisp-pkg.el" "starter-kit-lisp-pkg.elc" "starter-kit-lisp.el")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

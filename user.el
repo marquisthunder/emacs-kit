@@ -18,6 +18,7 @@
 
 ;;; esc quits
 (evil-mode 1)
+(global-linum-mode 1)
 
 (define-key evil-normal-state-map [escape] 'keyboard-quit)
 (define-key evil-visual-state-map [escape] 'keyboard-quit)
@@ -28,17 +29,6 @@
 (define-key minibuffer-local-isearch-map [escape] 'minibuffer-keyboard-quit)
 
 ;;; initial set state mode for some specie modes
-(loop for (mode . state) in '(
-    (inferior-emacs-lisp-mode . emacs)
-    (pylookup-mode . emacs)
-    (comint-mode . emacs)
-    (shell-mode . emacs)
-    (term-mode . emacs)
-    (bc-menu-mode . emacs)
-    (magit-branch-manager-mode-map . emacs)
-    (magit-mode . emacs)
-    (rdictcc-buffer-mode . emacs))
-(do (evil-set-initial-state mode state)))
 
 ;basic colors - comment this out to use light background
 ;(custom-set-faces
@@ -52,6 +42,13 @@
 (add-to-list 'ac-modes 'slime-repl-mode)
 (add-hook 'slime-mode-hook 'set-up-slime-ac)
 (add-hook 'slime-repl-mode-hook 'set-up-slime-ac)
+
+(add-hook 'coffee-mode-hook '(lambda () (coffee-cos-mode t)))
+
+(require 'sws-mode)
+(require 'jade-mode)
+(add-to-list 'auto-mode-alist '("\\.styl$" . sws-mode))
+(add-to-list 'auto-mode-alist '("\\.jade$" . jade-mode))
 
 ;; More syntax coloring
 (defun tweak-clojure-syntax (mode)

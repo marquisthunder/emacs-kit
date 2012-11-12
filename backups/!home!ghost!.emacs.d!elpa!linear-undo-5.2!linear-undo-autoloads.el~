@@ -1,0 +1,13 @@
+;;; linear-undo-autoloads.el --- automatically extracted autoloads
+;;
+;;; Code:
+
+
+(provide 'linear-undo-autoloads)
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; no-update-autoloads: t
+;; coding: utf-8
+;; End:
+;;; linear-undo-autoloads.el ends here

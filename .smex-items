@@ -1,0 +1,28 @@
+
+;; ----- smex-history -----
+(
+ paredit-mode
+ java-mode
+ package-list-packages
+ linum-mode
+ magit-status
+ imenu
+ gnus-no-server
+)
+
+;; ----- smex-data -----
+(
+ (customize-themes . 1)
+ (package-install . 1)
+ (package-list-packages . 21)
+ (gnus-no-server . 1)
+ (paredit-kill . 1)
+ (java-mode . 3)
+ (linum-mode . 7)
+ (imenu . 3)
+ (imenu-add-menubar-index . 1)
+ (paredit-mode . 2)
+ (idomenu . 1)
+ (magit-status . 1)
+ (jade-mode . 4)
+)

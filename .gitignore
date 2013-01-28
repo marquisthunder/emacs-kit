@@ -6,7 +6,8 @@
 auto-save-list
 tramp
 .\#*
-
+elpa
+eshell
 # Org-mode
 .org-id-locations
 *_archive

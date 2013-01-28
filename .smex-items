@@ -1,9 +1,9 @@
 
 ;; ----- smex-history -----
 (
+ package-list-packages
  paredit-mode
  java-mode
- package-list-packages
  linum-mode
  magit-status
  imenu
@@ -14,7 +14,7 @@
 (
  (customize-themes . 1)
  (package-install . 1)
- (package-list-packages . 21)
+ (package-list-packages . 26)
  (gnus-no-server . 1)
  (paredit-kill . 1)
  (java-mode . 3)
@@ -25,4 +25,5 @@
  (idomenu . 1)
  (magit-status . 1)
  (jade-mode . 4)
+ (color-theme-solarized-dark . 1)
 )

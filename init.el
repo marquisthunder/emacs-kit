@@ -10,8 +10,9 @@
 (defvar my-packages '(color-theme-sanityinc-tomorrow evil evil-leader evil-numbers
                       starter-kit starter-kit-lisp starter-kit-eshell starter-kit-js starter-kit-bindings
                       nrepl nrepl-ritz clojure-mode clojurescript-mode cljsbuild-mode clojure-project-mode clojure-test-mode
-                      coffee-mode gist git-commit gh magit magit-simple-keys magithub less-css-mode haml-mode
-                      json paredit python-mode python-pep8 python-pylint pysmell sass-mode yasnippet durendal ac-slime ace-jump-mode idomenu) "A list of packages to ensure are installed at launch.") 
+                      gist git-commit gh magit magit-simple-keys magithub jade-mode stylus-mode coffee-mode haml-mode org 
+                      json paredit python-mode python-pep8 python-pylint pysmell pony-mode yasnippet
+                      ace-jump-mode idomenu ssh ) "A list of packages to ensure are installed at launch.") 
 (dolist (p my-packages)
   (when (not (package-installed-p p))
     (package-install p)))

@@ -14,7 +14,7 @@
 (
  (customize-themes . 1)
  (package-install . 1)
- (package-list-packages . 26)
+ (package-list-packages . 29)
  (gnus-no-server . 1)
  (paredit-kill . 1)
  (java-mode . 3)

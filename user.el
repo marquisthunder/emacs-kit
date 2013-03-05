@@ -1,7 +1,6 @@
 (color-theme-sanityinc-tomorrow-eighties)
 (add-to-list 'load-path "~/.emacs.d/user")
 (add-to-list 'load-path "~/.emacs.d/snippets")
-(global-set-key [(meta return)] 'toggle-fullscreen)
 ;;disable suspending emacs on ctrl-z
 (global-set-key (kbd "C-z") 'undo)
 (global-unset-key (kbd "C-x C-z"))
@@ -45,6 +44,7 @@
 
 (add-hook 'coffee-mode-hook '(lambda () (coffee-cos-mode t)))
 
+(require 'yagist)
 (require 'sws-mode)
 (require 'jade-mode)
 (add-to-list 'auto-mode-alist '("\\.styl$" . sws-mode))
@@ -69,14 +69,14 @@
             (("(\\(->>\\>\\)" 0 (progn (compose-region (match-beginning 1)
                                                        (match-end 1) "↠") nil)))
             (("(\\(complement\\>\\)" 0 (progn (compose-region
-                                               (match-beginning 1)
-                                               (match-end 1) "¬") nil)))
+                                                (match-beginning 1)
+                                                (match-end 1) "¬") nil)))
             (("^[a-zA-Z0-9-.*+!_?]+?>" . 'slime-repl-prompt-face)))))
 
 ;; Macro for face definition
 (defmacro defcljface (name color desc &optional others)
   `(defface ,name '((((class color)) (:foreground ,color ,@others)))
-     ,desc :group 'faces))
+            ,desc :group 'faces))
 
 ;; Define extra clojure faces
 (defcljface clojure-parens       "DimGrey"   "Clojure parens")
@@ -115,26 +115,26 @@
   (let ((undos buffer-undo-list))
     (when (listp undos)
       (while (and undos
-		  (let ((pos (or (cdr-safe (car undos))
-				 (car undos))))
-		    (not (and (integerp pos)
-			      (goto-char (abs pos))))))
-	(setq undos (cdr undos))))))
+                  (let ((pos (or (cdr-safe (car undos))
+                                 (car undos))))
+                    (not (and (integerp pos)
+                              (goto-char (abs pos))))))
+             (setq undos (cdr undos))))))
 (global-set-key (kbd "C-c SPC") 'goto-last-edit-point)
 
 ;;browse link shortcut
 (global-set-key (kbd "C-c M-b") 'browse-url-at-point)
 
 (defun start-newline-next ()
-    (interactive)
-      (end-of-line)
-        (newline-and-indent))
- 
+  (interactive)
+  (end-of-line)
+  (newline-and-indent))
+
 (defun start-newline-prev ()
-    (interactive)
-      (forward-line -1)
-        (start-newline-next))
- 
+  (interactive)
+  (forward-line -1)
+  (start-newline-next))
+
 (global-set-key (kbd "C-o") 'start-newline-next)
 (global-set-key (kbd "M-o") 'start-newline-prev)
 
@@ -142,8 +142,36 @@
 (defun toggle-fullscreen ()
   (interactive)
   (set-frame-parameter nil 'fullscreen (if (frame-parameter nil 'fullscreen)
-					    nil
-					    'fullboth)))
-(toggle-fullscreen)
+                                         nil
+                                         'fullboth)))
+
+(global-set-key [(meta return)] 'toggle-fullscreen)
+(setq window-system-default-frame-alist
+      '(
+        ;; if frame created on x display
+        (x
+          (menu-bar-lines . 1)
+          (tool-bar-lines . nil)
+          ;; mouse
+          (mouse-wheel-mode . 1)
+          (mouse-wheel-follow-mouse . t)
+          (mouse-avoidance-mode . 'exile)
+          ;; face
+          (font . "文泉驿等宽微米黑 12")
+          (set-frame-parameter nil 'fullscreen (if (frame-parameter nil 'fullscreen)
+                                         nil
+                                         'fullboth))
+          )
+        ;; if on term
+        (nil
+          (menu-bar-lines . 0) (tool-bar-lines . 0)
+          ;; (background-color . "black")
+          ;; (foreground-color . "white")
+          (set-frame-parameter nil 'fullscreen (if (frame-parameter nil 'fullscreen)
+                                         nil
+                                         'fullboth))
+          )
+        )
+      )
 
 (provide 'user)

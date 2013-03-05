@@ -2,7 +2,7 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Mon Jan 28 15:06:43 2013
+;; Created Tue Mar  5 17:39:06 2013
 ;; Desktop file format version 206
 ;; Emacs version 24.1.1
 
@@ -11,43 +11,252 @@
 (setq tags-file-name nil)
 (setq tags-table-list nil)
 (setq search-ring '("starter"))
-(setq regexp-search-ring '("\\_<placeHolderForHiddenStructElements\\_>" "\\_<elop\\_>" "self.v" "\\_<run\\_>" "clan" "\\_<combinations\\_>" "\\_<ModelResource\\_>" "\\_<_namespace\\_>" "\\_<ModbusControlBlock\\_>" "\\_<ModbusAccessControl\\_>" "\\_<register_routes\\_>" "\\_<palette\\.color\\_>" "legend" "\\_<legend\\_>" "\\_<slider\\_>" "\\_<timeline\\_>"))
+(setq regexp-search-ring '("random" "\\_<seed\\_>" "\\_<__login\\_>" "\\_<_login\\_>" "logout" "\\_<Test\\_>" "\\_<link\\_>" "\\_<pinv\\_>" "gist" "evil" "python" "virtual" "__" "change" "\\_<_changeName\\_>" "saveImage"))
 (setq register-alist (list (desktop-list* 49 (let ((mk (make-marker))) (add-hook 'desktop-delay-hook (list 'lambda '() (list 'set-marker mk nil (get-buffer " *temp*")))) mk))))
-(setq file-name-history '("/home/ghost/.emacs.d/init.el" "/home/ghost/Workspace/cpptest/basics/refnonref.cpp" "/home/ghost/.config/ipython/profile_default/ipython_config.py" "/home/ghost/Workspace/cpptest/testdio.c" "/home/ghost/Workspace/ipython/gsnmf/param_snmf.py" "/home/ghost/Workspace/ipython/gsnmf/gpenalty_gradH.py" "~/Workspace/cpptest/dlist/DlistTest.cpp" "/home/ghost/Workspace/cpptest/dlist/Dlist.c" "/home/ghost/Workspace/cpptest/dlist/Dlist.h" "/home/ghost/Workspace/ipython/gsnmf/gpenalty_gradH.py" "/home/ghost/Workspace/ipython/gsnmf/get_index.m" "/home/ghost/Workspace/ipython/gsnmf/gsnmf_mu.py" "/home/ghost/Workspace/ipython/gsnmf/plot_nmf.py" "/home/ghost/Workspace/ipython/gsnmf/plot_nmf.m" "/home/ghost/Workspace/ipython/gsnmf/gsnmf_mu.m" "/home/ghost/Workspace/ipython/gsnmf/gsnmf_mu.py" "/home/ghost/Workspace/ipython/bitey/README.rst" "/home/ghost/Workspace/ipython/MF/nimfa/utils/linalg.py" "/home/ghost/Workspace/ipython/MF/nimfa/methods/factorization/pmf.py" "/home/ghost/Workspace/ipython/MF/nimfa/methods/factorization/bd.py" "/home/ghost/Workspace/machinelearning/8Probability/GMM.py" "/home/ghost/Workspace/machinelearning/8Probability/kdtree.py" "~/Workspace/ipython/PyML-0.7.11/PyML/feature_selection/" "/home/ghost/Workspace/ipython/PyML-0.7.11/PKG-INFO" "/home/ghost/Workspace/ipython/pymf/lib/pymf/chnmf.py" "/home/ghost/Workspace/ipython/pymf/lib/pymf/cnmf.py" "/home/ghost/Workspace/ipython/python-seminar/Lectures/11_Cython/demos/wrap/setup.py" "/home/ghost/Workspace/ipython/python-seminar/Lectures/11_Cython/demos/wrap/Circle.h" "/home/ghost/Workspace/ipython/python-seminar/Lectures/11_Cython/demos/wrap/circ.pyx" "/home/ghost/Workspace/ipython/python-seminar/Lectures/11_Cython/demos/wrap/Circle.cpp"))
+(setq file-name-history '("/home/ghost/Workspace/cpptest/virtualmem/viriablearray.c" "/home/ghost/Workspace/cpptest/virtualmem/vmtest.cpp" "/home/ghost/Workspace/cppproject/folly/folly/test/RandomTest.cpp" "/home/ghost/Workspace/cpptest/testfolly.cpp" "/home/ghost/Workspace/cpptest/virtualmem/quicksorttest.cpp" "/home/ghost/Workspace/cpptest/virtualmem/quicksort.c" "/home/ghost/Workspace/cpptest/virtualmem/tiny_printf.c" "/home/ghost/Workspace/cpptest/virtualmem/stackoverflow.c" "/home/ghost/Workspace/cpptest/virtualmem/stacktest.c" "/home/ghost/Workspace/cpptest/testfolly.cpp" "/home/ghost/Workspace/python-django/intemass/intemass/portal/templates/login.html" "/home/ghost/Workspace/python-django/intemass/intemass/portal/views.py" "/home/ghost/Workspace/python-django/intemass/intemass/common/views.py" "/home/ghost/Workspace/python-django/intemass/intemass/common/templates/head.html" "/home/ghost/Workspace/python-django/intemass/intemass/common/__init__.py" "/home/ghost/Workspace/cppproject/folly/folly/test/ArenaTest.cpp" "/home/ghost/Workspace/cppproject/muduo/muduo/base/Singleton.h" "/home/ghost/Workspace/cppproject/muduo/muduo/base/tests/Singleton_test.cc" "/home/ghost/Workspace/cpptest/testxdefault.c" "/home/ghost/Workspace/cppproject/muduo/examples/twisted/finger/finger02.cc" "/home/ghost/Workspace/cppproject/muduo/examples/twisted/finger/finger01.cc" "/home/ghost/Workspace/cppproject/muduo/examples/netty/echo/client.cc" "/home/ghost/Workspace/cppproject/muduo/examples/CMakeLists.txt" "/home/ghost/Workspace/cpptest/testsame.cpp" "/home/ghost/Workspace/cpptest/singleton.h" "/home/ghost/.backup/Workspace/ipython/pymf/lib/pymf/aa.py" "/home/ghost/.emacs.d/user.el" "/home/ghost/.emacs.d/init.el" "/home/ghost/Workspace/cppproject/folly/folly/AtomicHashArray.h" "/home/ghost/Workspace/python-django/intemass/intemass/question/views.py"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
-  "/home/ghost/.emacs.d/.gitignore"
-  ".gitignore"
-  'gitignore-mode
-  '(undo-tree-mode linum-mode)
-  78
-  '(1 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/home/ghost/Workspace/cpptest/basics/refnonref.cpp"
-  "refnonref.cpp"
-  'c++-mode
-  '(auto-fill-mode abbrev-mode undo-tree-mode linum-mode auto-complete-mode hi-lock-mode)
-  204
-  '(281 nil)
+  "/home/ghost/Workspace/cpptest/virtualmem/viriablearray.c"
+  "viriablearray.c"
+  'c-mode
+  '(auto-fill-mode abbrev-mode undo-tree-mode linum-mode auto-complete-mode)
+  39
+  '(nil nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
 
 (desktop-create-buffer 206
-  "/home/ghost/.emacs.d/init.el"
-  "init.el"
-  'emacs-lisp-mode
-  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode hi-lock-mode paredit-mode elisp-slime-nav-mode eldoc-mode)
-  314
-  '(616 nil)
+  "/home/ghost/Workspace/cpptest/virtualmem/vmtest.cpp"
+  "vmtest.cpp"
+  'c++-mode
+  '(auto-fill-mode abbrev-mode undo-tree-mode linum-mode auto-complete-mode hi-lock-mode)
+  76
+  '(nil nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/cpptest/virtualmem/quicksorttest.cpp"
+  "quicksorttest.cpp"
+  'c++-mode
+  '(auto-fill-mode abbrev-mode undo-tree-mode linum-mode auto-complete-mode hi-lock-mode)
+  250
+  '(250 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/cpptest/virtualmem/quicksort.c"
+  "quicksort.c"
+  'c-mode
+  '(auto-fill-mode abbrev-mode undo-tree-mode linum-mode auto-complete-mode hi-lock-mode)
+  475
+  '(475 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/cppproject/folly/folly/test/RandomTest.cpp"
+  "RandomTest.cpp"
+  'c++-mode
+  '(auto-fill-mode abbrev-mode undo-tree-mode linum-mode auto-complete-mode hi-lock-mode)
+  813
+  '(906 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/cpptest/testfolly.cpp"
+  "testfolly.cpp"
+  'c++-mode
+  '(auto-fill-mode abbrev-mode undo-tree-mode linum-mode auto-complete-mode hi-lock-mode)
+  501
+  '(502 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/cpptest/virtualmem/tiny_printf.c"
+  "tiny_printf.c"
+  'c-mode
+  '(auto-fill-mode abbrev-mode undo-tree-mode linum-mode auto-complete-mode hi-lock-mode)
+  120
+  '(121 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/cpptest/virtualmem/stackoverflow.c"
+  "stackoverflow.c"
+  'c-mode
+  '(auto-fill-mode abbrev-mode undo-tree-mode linum-mode auto-complete-mode)
+  232
+  '(233 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/cpptest/virtualmem/stacktest.c"
+  "stacktest.c"
+  'c-mode
+  '(auto-fill-mode abbrev-mode undo-tree-mode linum-mode auto-complete-mode hi-lock-mode)
+  755
+  '(755 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/python-django/intemass/intemass/portal/templates/login.html"
+  "login.html"
+  'html-mode
+  '(auto-fill-mode undo-tree-mode linum-mode flyspell-mode)
+  2035
+  '(2035 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/python-django/intemass/intemass/portal/views.py"
+  "views.py"
+  'python-mode
+  '(undo-tree-mode linum-mode auto-complete-mode)
+  3230
+  '(694 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/python-django/intemass/intemass/common/templates/head.html"
+  "head.html"
+  'html-mode
+  '(auto-fill-mode undo-tree-mode linum-mode flyspell-mode)
+  983
+  '(983 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/python-django/intemass/intemass/common/views.py"
+  "views.py"
+  'python-mode
+  '(undo-tree-mode linum-mode auto-complete-mode)
+  849
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/python-django/intemass/intemass/common/__init__.py"
+  "__init__.py"
+  'python-mode
+  '(undo-tree-mode linum-mode auto-complete-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/cppproject/folly/folly/test/ArenaTest.cpp"
+  "ArenaTest.cpp"
+  'c++-mode
+  '(auto-fill-mode abbrev-mode undo-tree-mode linum-mode auto-complete-mode)
+  1220
+  '(1221 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/cppproject/muduo/muduo/base/Singleton.h"
+  "Singleton.h"
+  'c-mode
+  '(auto-fill-mode abbrev-mode undo-tree-mode linum-mode auto-complete-mode)
+  581
+  '(582 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/cppproject/muduo/muduo/base/tests/Singleton_test.cc"
+  "Singleton_test.cc"
+  'c++-mode
+  '(auto-fill-mode abbrev-mode undo-tree-mode linum-mode auto-complete-mode hi-lock-mode)
+  524
+  '(525 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/cpptest/testxdefault.c"
+  "testxdefault.c"
+  'c-mode
+  '(auto-fill-mode abbrev-mode undo-tree-mode linum-mode auto-complete-mode hi-lock-mode)
+  163
+  '(203 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/cppproject/muduo/examples/twisted/finger/finger02.cc"
+  "finger02.cc"
+  'c++-mode
+  '(auto-fill-mode abbrev-mode undo-tree-mode linum-mode auto-complete-mode hi-lock-mode)
+  120
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/cppproject/muduo/examples/twisted/finger/finger01.cc"
+  "finger01.cc"
+  'c++-mode
+  '(auto-fill-mode abbrev-mode undo-tree-mode linum-mode auto-complete-mode)
+  87
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/cppproject/muduo/examples/netty/echo/client.cc"
+  "client.cc"
+  'c++-mode
+  '(auto-fill-mode abbrev-mode undo-tree-mode linum-mode auto-complete-mode hi-lock-mode)
+  1717
+  '(1718 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/ghost/Workspace/cppproject/muduo/examples/CMakeLists.txt"
+  "CMakeLists.txt"
+  'cmake-mode
+  '(undo-tree-mode linum-mode)
+  354
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
   "/home/ghost/.emacs.d/elpa/archives/gnu/archive-contents"
@@ -70,246 +279,4 @@
   nil
   nil
   '((buffer-file-coding-system . raw-text-unix)))
-
-(desktop-create-buffer 206
-  "/home/ghost/.emacs.d/elpa/auto-indent-mode-0.88/auto-indent-mode-autoloads.el"
-  "auto-indent-mode-autoloads.el"
-  'emacs-lisp-mode
-  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode paredit-mode elisp-slime-nav-mode eldoc-mode)
-  2336
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
-
-(desktop-create-buffer 206
-  "/home/ghost/.emacs.d/elpa/magithub-0.2/magithub-autoloads.el"
-  "magithub-autoloads.el"
-  'emacs-lisp-mode
-  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode paredit-mode elisp-slime-nav-mode eldoc-mode)
-  717
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
-
-(desktop-create-buffer 206
-  "/home/ghost/.emacs.d/elpa/haml-mode-3.0.14/haml-mode-autoloads.el"
-  "haml-mode-autoloads.el"
-  'emacs-lisp-mode
-  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode paredit-mode elisp-slime-nav-mode eldoc-mode)
-  445
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
-
-(desktop-create-buffer 206
-  "/home/ghost/.emacs.d/elpa/pyvirtualenv-1.1/pyvirtualenv-autoloads.el"
-  "pyvirtualenv-autoloads.el"
-  'emacs-lisp-mode
-  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode paredit-mode elisp-slime-nav-mode eldoc-mode)
-  1419
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
-
-(desktop-create-buffer 206
-  "/home/ghost/.emacs.d/elpa/python-20120402/python-autoloads.el"
-  "python-autoloads.el"
-  'emacs-lisp-mode
-  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode paredit-mode elisp-slime-nav-mode eldoc-mode)
-  612
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
-
-(desktop-create-buffer 206
-  "/home/ghost/.emacs.d/elpa/pytest-0.2.1/pytest-autoloads.el"
-  "pytest-autoloads.el"
-  'emacs-lisp-mode
-  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode paredit-mode elisp-slime-nav-mode eldoc-mode)
-  172
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
-
-(desktop-create-buffer 206
-  "/home/ghost/.emacs.d/elpa/pylint-1.0/pylint-autoloads.el"
-  "pylint-autoloads.el"
-  'emacs-lisp-mode
-  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode paredit-mode elisp-slime-nav-mode eldoc-mode)
-  310
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
-
-(desktop-create-buffer 206
-  "/home/ghost/.emacs.d/elpa/pyflakes-1.0/pyflakes-autoloads.el"
-  "pyflakes-autoloads.el"
-  'emacs-lisp-mode
-  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode paredit-mode elisp-slime-nav-mode eldoc-mode)
-  326
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
-
-(desktop-create-buffer 206
-  "/home/ghost/.emacs.d/elpa/nose-0.1.1/nose-autoloads.el"
-  "nose-autoloads.el"
-  'emacs-lisp-mode
-  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode paredit-mode elisp-slime-nav-mode eldoc-mode)
-  158
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
-
-(desktop-create-buffer 206
-  "/home/ghost/.emacs.d/elpa/js2-mode-1.1/js2-mode-autoloads.el"
-  "js2-mode-autoloads.el"
-  'emacs-lisp-mode
-  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode paredit-mode elisp-slime-nav-mode eldoc-mode)
-  688
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
-
-(desktop-create-buffer 206
-  "/home/ghost/.emacs.d/elpa/gitignore-mode-0.1/gitignore-mode-autoloads.el"
-  "gitignore-mode-autoloads.el"
-  'emacs-lisp-mode
-  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode paredit-mode elisp-slime-nav-mode eldoc-mode)
-  559
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
-
-(desktop-create-buffer 206
-  "/home/ghost/.emacs.d/elpa/evil-paredit-0.0.1/evil-paredit-autoloads.el"
-  "evil-paredit-autoloads.el"
-  'emacs-lisp-mode
-  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode paredit-mode elisp-slime-nav-mode eldoc-mode)
-  190
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
-
-(desktop-create-buffer 206
-  "/home/ghost/.emacs.d/elpa/evil-nerd-commenter-0.0.2/evil-nerd-commenter-autoloads.el"
-  "evil-nerd-commenter-autoloads.el"
-  'emacs-lisp-mode
-  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode paredit-mode elisp-slime-nav-mode eldoc-mode)
-  1151
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
-
-(desktop-create-buffer 206
-  "/home/ghost/.emacs.d/elpa/ctypes-1.2/ctypes-autoloads.el"
-  "ctypes-autoloads.el"
-  'emacs-lisp-mode
-  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode paredit-mode elisp-slime-nav-mode eldoc-mode)
-  3555
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
-
-(desktop-create-buffer 206
-  "/home/ghost/.emacs.d/elpa/ctags-update-0.1.2/ctags-update-autoloads.el"
-  "ctags-update-autoloads.el"
-  'emacs-lisp-mode
-  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode paredit-mode elisp-slime-nav-mode eldoc-mode)
-  751
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
-
-(desktop-create-buffer 206
-  "/home/ghost/.emacs.d/elpa/cpputils-cmake-0.2.0/cpputils-cmake-autoloads.el"
-  "cpputils-cmake-autoloads.el"
-  'emacs-lisp-mode
-  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode paredit-mode elisp-slime-nav-mode eldoc-mode)
-  1073
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
-
-(desktop-create-buffer 206
-  "/home/ghost/.emacs.d/elpa/cppcheck-1.0/cppcheck-autoloads.el"
-  "cppcheck-autoloads.el"
-  'emacs-lisp-mode
-  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode paredit-mode elisp-slime-nav-mode eldoc-mode)
-  326
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
-
-(desktop-create-buffer 206
-  "/home/ghost/.emacs.d/elpa/company-0.5/company-autoloads.el"
-  "company-autoloads.el"
-  'emacs-lisp-mode
-  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode paredit-mode elisp-slime-nav-mode eldoc-mode)
-  6352
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
-
-(desktop-create-buffer 206
-  "/home/ghost/.emacs.d/elpa/cmake-project-0.5/cmake-project-autoloads.el"
-  "cmake-project-autoloads.el"
-  'emacs-lisp-mode
-  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode paredit-mode elisp-slime-nav-mode eldoc-mode)
-  883
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
-
-(desktop-create-buffer 206
-  "/home/ghost/.emacs.d/elpa/cmake-mode-20110824/cmake-mode-autoloads.el"
-  "cmake-mode-autoloads.el"
-  'emacs-lisp-mode
-  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode paredit-mode elisp-slime-nav-mode eldoc-mode)
-  184
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
-
-(desktop-create-buffer 206
-  "/home/ghost/.emacs.d/elpa/cljdoc-0.1.0/cljdoc-autoloads.el"
-  "cljdoc-autoloads.el"
-  'emacs-lisp-mode
-  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode paredit-mode elisp-slime-nav-mode eldoc-mode)
-  172
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
-
-(desktop-create-buffer 206
-  "/home/ghost/.emacs.d/elpa/c-eldoc-0.5/c-eldoc-autoloads.el"
-  "c-eldoc-autoloads.el"
-  'emacs-lisp-mode
-  '(auto-fill-mode undo-tree-mode linum-mode auto-complete-mode paredit-mode elisp-slime-nav-mode eldoc-mode)
-  175
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
 

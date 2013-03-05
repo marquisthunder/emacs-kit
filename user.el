@@ -1,6 +1,15 @@
 (color-theme-sanityinc-tomorrow-eighties)
 (add-to-list 'load-path "~/.emacs.d/user")
 (add-to-list 'load-path "~/.emacs.d/snippets")
+(add-to-list 'load-path "~/.emacs.d/elpa/ack-and-a-half")
+(require 'ack-and-a-half)
+;; Create shorter aliases
+(defalias 'ack 'ack-and-a-half)
+(defalias 'ack-same 'ack-and-a-half-same)
+(defalias 'ack-find-file 'ack-and-a-half-find-file)
+(defalias 'ack-find-file-same 'ack-and-a-half-find-file-same)
+
+(global-set-key [(meta return)] 'toggle-fullscreen)
 ;;disable suspending emacs on ctrl-z
 (global-set-key (kbd "C-z") 'undo)
 (global-unset-key (kbd "C-x C-z"))
@@ -44,11 +53,10 @@
 
 (add-hook 'coffee-mode-hook '(lambda () (coffee-cos-mode t)))
 
-(require 'yagist)
-(require 'sws-mode)
-(require 'jade-mode)
-(add-to-list 'auto-mode-alist '("\\.styl$" . sws-mode))
-(add-to-list 'auto-mode-alist '("\\.jade$" . jade-mode))
+'(require 'sws-mode)
+'(require 'jade-mode)
+'(add-to-list 'auto-mode-alist '("\\.styl$" . sws-mode))
+'(add-to-list 'auto-mode-alist '("\\.jade$" . jade-mode))
 
 ;; More syntax coloring
 (defun tweak-clojure-syntax (mode)

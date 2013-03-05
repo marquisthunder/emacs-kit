@@ -2,7 +2,7 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Tue Mar  5 17:39:06 2013
+;; Created Tue Mar  5 17:52:32 2013
 ;; Desktop file format version 206
 ;; Emacs version 24.1.1
 
@@ -21,7 +21,7 @@
   "viriablearray.c"
   'c-mode
   '(auto-fill-mode abbrev-mode undo-tree-mode linum-mode auto-complete-mode)
-  39
+  38
   '(nil nil)
   nil
   nil

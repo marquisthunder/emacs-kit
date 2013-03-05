@@ -1,376 +1,376 @@
-((("stdlib" .
-   [1 0 0 0 0 0])
-  ("argv" .
-   [1 0 0 0])
-  ("argc" .
-   [1 0 0 0])
-  ("main" .
-   [1 0 0 0])
-  ("data_size" .
-   [0 0 0 0 0 0 1 0 0])
-  ("quicksort_sub" .
-   [0 0 1 2 0 0 0 0 0 0 0 0 0])
-  ("SWAP" .
-   [0 0 1 0])
-  ("i" .
-   [2])
-  ("pivot" .
-   [2 0 1 0 0])
-  ("right_index" .
-   [1 0 0 0 0 0 2 1 2 0 1])
-  ("left_index" .
-   [2 0 0 1 0 3 2 1 0 1])
-  ("right" .
-   [3 0 1 4 2])
-  ("left" .
-   [4 0 1 5])
-  ("char" .
-   [2 0 0 0])
-  ("while" .
-   [1 0 0 1 0])
-  ("yagist" .
-   [1 0 0 1 0 0])
-  ("nonref" .
-   [0 0 0 0 1 0])
-  ("ref" .
-   [1 0 0])
-  ("name" .
-   [1 0 0 0])
-  ("typeid" .
-   [0 0 1 0 0 0])
-  ("cout" .
-   [1 0 0 0])
-  ("std" .
-   [2 0 0])
-  ("void" .
-   [5 0 0 0])
-  ("typename" .
-   [0 0 0 1 0 2 0 0])
-  ("template" .
-   [2 0 0 3 0 0 0 0])
-  ("turbine_switchoff" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("KaasMember" .
-   [0 0 1 0 0 0 0 0 0 0])
-  ("request" .
-   [0 0 0 0 0 0 1])
-  ("length" .
-   [1 0 0 0 0 0])
-  ("for" .
-   [9 0 0])
-  ("$stuanswer_editor" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("cKey" .
-   [1 0 0 0])
-  ("ctrlKey" .
-   [0 0 0 1 1 0 0])
-  ("serializers" .
-   [0 0 0 2 0 0 0 0 0 0 0])
-  ("tastypie" .
-   [0 0 1 0 0 0 0 0])
-  ("from" .
-   [1 0 0 0])
-  ("ExtendedModelResource" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("currentpower" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("currenttime" .
-   [0 0 0 1 0 0 0 0 0 0 0])
-  ("IntegerField" .
-   [0 0 1 0 0 0 0 0 0 0 0 0])
-  ("windspeed" .
-   [0 0 0 0 1 0 0 0 0])
-  ("attribute" .
-   [1 0 0 1 0 0 0 0 0])
-  ("False" .
-   [1 0 0 0 0])
-  ("default" .
-   [0 0 0 0 1 0 0])
-  ("BooleanField" .
-   [0 0 1 0 0 0 0 0 0 0 0 0])
-  ("models" .
-   [1 0 0 0 0 0])
-  ("status" .
-   [1 0 0 0 0 0])
-  ("alarm" .
-   [1 0 0 0 0])
-  ("TextField" .
-   [0 0 0 1 0 0 0 0 0])
-  ("True" .
-   [2 0 0 0])
-  ("ToOneField" .
-   [0 0 0 1 0 0 0 0 0 0])
-  ("fields" .
-   [2 0 2 0 0 0])
-  ("state" .
-   [1 0 0 0 0])
-  ("return" .
-   [3 0 0 0 0 0])
-  ("bundle" .
-   [2 0 1 0 0 0])
-  ("self" .
-   [3 0 0 0])
-  ("dehydrate" .
-   [0 0 1 1 0 0 0 0 0])
-  ("def" .
-   [4 0 0])
-  ("TurbineData" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("data" .
-   [10 0 0 0])
-  ("not" .
-   [2 0 0])
-  ("mark" .
-   [3 0 0 0])
-  ("and" .
-   [2 0 0])
-  ("Stu_SenList" .
-   [0 0 0 0 0 0 0 0 0 1 0])
-  ("plist" .
-   [2 0 0 0 0])
-  ("2" .
-   [1])
-  ("stu_sen" .
-   [1 0 0 0 0 0 1])
-  ("stu_senlist" .
-   [5 0 0 0 0 0 0 1 0 0 0])
-  ("if" .
-   [7 0])
-  ("point_no" .
-   [1 0 0 1 0 0 0 0])
-  ("marklist" .
-   [4 0 0 0 0 0 0 0])
-  ("linum-on" .
-   [0 0 0 1 0 0 0 0])
-  ("paperlist" .
-   [3 0 0 2 0 0 0 0 0])
-  ("Assignment" .
-   [0 0 0 0 1 0 0 0 0 0])
-  ("evil" .
-   [1 0 0 0])
-  ("evil-mode" .
-   [0 0 0 1 0 0 0 0 0])
-  ("len" .
-   [6 0 0])
-  ("count" .
-   [4 0 0 0 0])
-  ("5000" .
-   [1 0 0 0])
-  ("islice" .
-   [0 0 1 0 0 0])
-  ("rulelist" .
-   [3 0 0 0 0 0 0 0])
-  ("print" .
-   [17 0 0 0 0])
-  ("txtrulelist" .
-   [0 0 0 0 0 1 0 0 0 0 0])
-  ("list" .
-   [9 0 0 0])
-  ("itertools" .
-   [2 0 0 0 3 0 0 0 0])
-  ("import" .
-   [2 0 0 0 0 0])
-  ("clojurescript-mode" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("coffee-mode" .
-   [0 0 0 0 1 0 0 0 0 0 0])
-  ("less-css-mode" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("python-mode" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("python-pep8" .
-   [0 0 0 0 0 0 0 0 0 0 1])
-  ("python-pylint" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("sass-mode" .
-   [0 0 0 0 1 0 0 0 0])
-  ("YASnippet" .
-   [0 0 0 0 1 0 0 0 0])
-  ("teachernode" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("append" .
-   [2 0 1 0 0 0])
-  ("stu_teacher_list" .
-   [0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("else" .
-   [3 0 0 0])
-  ("qnameseq" .
-   [2 0 0 0 0 0 0 0])
-  ("paper" .
-   [3 0 0 0 0])
-  ("None" .
-   [1 0 0 0])
-  ("Question" .
-   [0 0 0 1 1 1 0 0])
-  ("qid" .
-   [1 0 0])
-  ("qids" .
-   [1 0 0 0])
-  ("qnames" .
-   [1 0 0 0 0 0])
-  ("checked" .
-   [1 0 1 0 0 1 0])
-  ("in" .
-   [6 0])
-  ("uncheckeditempools" .
-   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("uncheckedquestions" .
-   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("questionseq" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("remove" .
-   [1 0 0 0 0 0])
-  ("id" .
-   [2 0])
-  ("global" .
-   [0 0 1 1 0 0])
-  ("global_legends" .
-   [0 0 0 0 0 0 0 2 0 0 0 0 0 0])
-  ("clear" .
-   [2 0 0 0 0])
-  ("Function" .
-   [0 0 0 2 0 0 0 0])
-  ("canvas" .
-   [1 0 0 0 0 0])
-  ("this" .
-   [1 0 0 0])
-  ("thiscanvas" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("pid" .
-   [3 0 0])
-  ("var" .
-   [4 0 0])
-  ("drawComplexCurve" .
-   [0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0])
-  ("drawCurve" .
+((("quicksort" .
    [0 0 0 0 0 1 0 0 0])
-  ("drawLine" .
-   [0 0 0 0 0 1 0 0])
-  ("drawDot" .
-   [0 0 0 0 0 1 0])
-  ("drawTips" .
-   [0 0 0 0 0 1 0 0])
-  ("function" .
-   [0 0 0 1 0 0 0 0])
-  ("axis" .
-   [2 0 0 0])
-  ("clearaxis" .
-   [1 0 0 0 0 0 0 0 0])
-  ("clearDeprecatedAxis" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("dot_list" .
-   [0 0 0 1 0 0 0 0])
-  ("push" .
-   [1 0 0 0])
-  ("thumbnails" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("CharField" .
-   [1 0 0 0 1 0 0 0 0])
-  ("max_length" .
-   [0 0 0 1 1 0 0 0 0 0])
-  ("100" .
-   [1 0 0])
-  ("parameter" .
-   [2 0 0 0 1 0 0 0 0])
-  ("TurbineParameter" .
+  ("randomNumberSeed" .
    [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("objects" .
-   [2 0 0 0 0 0 0])
-  ("get" .
-   [2 0 0])
-  ("timestamp" .
-   [0 0 0 0 0 0 1 0 0])
-  ("Turbine" .
-   [1 0 0 1 0 0 0])
-  ("minute" .
-   [0 0 0 1 0 0])
-  ("minutedata" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("hourdata" .
-   [1 0 0 0 0 0 0 0])
-  ("Questionid" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("try" .
-   [1 0 0])
-  ("except" .
+  ("seeds" .
+   [2 0 0 0 0])
+  ("uint32_t" .
+   [0 0 0 1 0 0 0 0])
+  ("vector" .
    [1 0 0 0 0 0])
-  ("Exception" .
-   [0 0 1 0 0 0 0 0 0])
-  ("loads" .
-   [2 0 0 0 0])
-  ("require" .
-   [1 0 0 0 0 0 0])
-  ("jade-mode" .
-   [0 0 0 0 1 0 0 0 0])
-  ("de" .
-   [1 0])
-  ("np" .
-   [1 0])
-  ("clojure-test-mode" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("haml-mode" .
-   [1 0 0 0 0 0 0 0 0])
-  ("magit" .
-   [1 0 0 0 0])
-  ("include" .
-   [0 0 0 2 2 0 0])
-  ("int" .
-   [18 0 0])
-  ("folly" .
-   [1 0 0 0 0])
-  ("labelCounts" .
-   [1 0 0 1 0 0 0 0 0 0 0])
-  ("current" .
-   [1 0 0 0 0 0 0])
-  ("featVec" .
-   [5 0 0 0 0 0 0])
-  ("dataSet" .
-   [2 0 0 0 0 0 0])
-  ("sum" .
-   [2 0 0])
-  ("boost" .
-   [2 0 1 0 0])
-  ("class" .
-   [2 0 0 0 0])
-  ("noncopyable" .
-   [0 0 0 0 1 0 0 0 0 0 0])
-  ("public" .
-   [0 0 0 1 0 0])
-  ("static" .
-   [0 0 1 4 0 0])
-  ("Singleton" .
-   [0 0 0 2 2 0 1 0 0])
-  ("value" .
-   [0 0 0 4 0])
-  ("private" .
-   [1 0 0 1 0 0 0])
-  ("init" .
-   [1 0 0 0])
-  ("value_" .
-   [4 0 0 0 0 0])
-  ("pthread_once" .
-   [0 0 0 1 1 0 0 0 0 0 0 0])
-  ("ponce_" .
-   [0 0 0 2 0 0])
-  ("pthread_once_t" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("destroy" .
-   [0 0 0 1 0 0 0])
-  ("Void" .
+  ("s" .
+   [1])
+  ("temp" .
    [2 0 0 0])
   ("define" .
    [1 0 0 0 0 0])
-  ("temp" .
+  ("Void" .
    [2 0 0 0])
-  ("s" .
-   [1])
-  ("vector" .
-   [1 0 0 0 0 0])
-  ("uint32_t" .
-   [0 0 0 1 0 0 0 0])
-  ("seeds" .
+  ("destroy" .
+   [0 0 0 1 0 0 0])
+  ("pthread_once_t" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ponce_" .
+   [0 0 0 2 0 0])
+  ("pthread_once" .
+   [0 0 0 1 1 0 0 0 0 0 0 0])
+  ("value_" .
+   [4 0 0 0 0 0])
+  ("init" .
+   [1 0 0 0])
+  ("private" .
+   [1 0 0 1 0 0 0])
+  ("value" .
+   [0 0 0 4 0])
+  ("Singleton" .
+   [0 0 0 2 2 0 1 0 0])
+  ("static" .
+   [0 0 1 4 0 0])
+  ("public" .
+   [0 0 0 1 0 0])
+  ("noncopyable" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("class" .
    [2 0 0 0 0])
-  ("randomNumberSeed" .
+  ("boost" .
+   [2 0 1 0 0])
+  ("sum" .
+   [2 0 0])
+  ("dataSet" .
+   [2 0 0 0 0 0 0])
+  ("featVec" .
+   [5 0 0 0 0 0 0])
+  ("current" .
+   [1 0 0 0 0 0 0])
+  ("labelCounts" .
+   [1 0 0 1 0 0 0 0 0 0 0])
+  ("folly" .
+   [1 0 0 0 0])
+  ("int" .
+   [18 0 0])
+  ("include" .
+   [0 0 0 2 2 0 0])
+  ("magit" .
+   [1 0 0 0 0])
+  ("haml-mode" .
+   [1 0 0 0 0 0 0 0 0])
+  ("clojure-test-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("np" .
+   [1 0])
+  ("de" .
+   [1 0])
+  ("jade-mode" .
+   [0 0 0 0 1 0 0 0 0])
+  ("require" .
+   [1 0 0 0 0 0 0])
+  ("loads" .
+   [2 0 0 0 0])
+  ("Exception" .
+   [0 0 1 0 0 0 0 0 0])
+  ("except" .
+   [1 0 0 0 0 0])
+  ("try" .
+   [1 0 0])
+  ("Questionid" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("hourdata" .
+   [1 0 0 0 0 0 0 0])
+  ("minutedata" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("minute" .
+   [0 0 0 1 0 0])
+  ("Turbine" .
+   [1 0 0 1 0 0 0])
+  ("timestamp" .
+   [0 0 0 0 0 0 1 0 0])
+  ("get" .
+   [2 0 0])
+  ("objects" .
+   [2 0 0 0 0 0 0])
+  ("TurbineParameter" .
    [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("quicksort" .
-   [0 0 0 0 0 1 0 0 0])))
+  ("parameter" .
+   [2 0 0 0 1 0 0 0 0])
+  ("100" .
+   [1 0 0])
+  ("max_length" .
+   [0 0 0 1 1 0 0 0 0 0])
+  ("CharField" .
+   [1 0 0 0 1 0 0 0 0])
+  ("thumbnails" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("push" .
+   [1 0 0 0])
+  ("dot_list" .
+   [0 0 0 1 0 0 0 0])
+  ("clearDeprecatedAxis" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("clearaxis" .
+   [1 0 0 0 0 0 0 0 0])
+  ("axis" .
+   [2 0 0 0])
+  ("function" .
+   [0 0 0 1 0 0 0 0])
+  ("drawTips" .
+   [0 0 0 0 0 1 0 0])
+  ("drawDot" .
+   [0 0 0 0 0 1 0])
+  ("drawLine" .
+   [0 0 0 0 0 1 0 0])
+  ("drawCurve" .
+   [0 0 0 0 0 1 0 0 0])
+  ("drawComplexCurve" .
+   [0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0])
+  ("var" .
+   [4 0 0])
+  ("pid" .
+   [3 0 0])
+  ("thiscanvas" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("this" .
+   [1 0 0 0])
+  ("canvas" .
+   [1 0 0 0 0 0])
+  ("Function" .
+   [0 0 0 2 0 0 0 0])
+  ("clear" .
+   [2 0 0 0 0])
+  ("global_legends" .
+   [0 0 0 0 0 0 0 2 0 0 0 0 0 0])
+  ("global" .
+   [0 0 1 1 0 0])
+  ("id" .
+   [2 0])
+  ("remove" .
+   [1 0 0 0 0 0])
+  ("questionseq" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("uncheckedquestions" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("uncheckeditempools" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("in" .
+   [6 0])
+  ("checked" .
+   [1 0 1 0 0 1 0])
+  ("qnames" .
+   [1 0 0 0 0 0])
+  ("qids" .
+   [1 0 0 0])
+  ("qid" .
+   [1 0 0])
+  ("Question" .
+   [0 0 0 1 1 1 0 0])
+  ("None" .
+   [1 0 0 0])
+  ("paper" .
+   [3 0 0 0 0])
+  ("qnameseq" .
+   [2 0 0 0 0 0 0 0])
+  ("else" .
+   [3 0 0 0])
+  ("stu_teacher_list" .
+   [0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("append" .
+   [2 0 1 0 0 0])
+  ("teachernode" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("YASnippet" .
+   [0 0 0 0 1 0 0 0 0])
+  ("sass-mode" .
+   [0 0 0 0 1 0 0 0 0])
+  ("python-pylint" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("python-pep8" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("python-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("less-css-mode" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("coffee-mode" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("clojurescript-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("import" .
+   [2 0 0 0 0 0])
+  ("itertools" .
+   [2 0 0 0 3 0 0 0 0])
+  ("list" .
+   [9 0 0 0])
+  ("txtrulelist" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("print" .
+   [17 0 0 0 0])
+  ("rulelist" .
+   [3 0 0 0 0 0 0 0])
+  ("islice" .
+   [0 0 1 0 0 0])
+  ("5000" .
+   [1 0 0 0])
+  ("count" .
+   [4 0 0 0 0])
+  ("len" .
+   [6 0 0])
+  ("evil-mode" .
+   [0 0 0 1 0 0 0 0 0])
+  ("evil" .
+   [1 0 0 0])
+  ("Assignment" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("paperlist" .
+   [3 0 0 2 0 0 0 0 0])
+  ("linum-on" .
+   [0 0 0 1 0 0 0 0])
+  ("marklist" .
+   [4 0 0 0 0 0 0 0])
+  ("point_no" .
+   [1 0 0 1 0 0 0 0])
+  ("if" .
+   [7 0])
+  ("stu_senlist" .
+   [5 0 0 0 0 0 0 1 0 0 0])
+  ("stu_sen" .
+   [1 0 0 0 0 0 1])
+  ("2" .
+   [1])
+  ("plist" .
+   [2 0 0 0 0])
+  ("Stu_SenList" .
+   [0 0 0 0 0 0 0 0 0 1 0])
+  ("and" .
+   [2 0 0])
+  ("mark" .
+   [3 0 0 0])
+  ("not" .
+   [2 0 0])
+  ("data" .
+   [10 0 0 0])
+  ("TurbineData" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("def" .
+   [4 0 0])
+  ("dehydrate" .
+   [0 0 1 1 0 0 0 0 0])
+  ("self" .
+   [3 0 0 0])
+  ("bundle" .
+   [2 0 1 0 0 0])
+  ("return" .
+   [3 0 0 0 0 0])
+  ("state" .
+   [1 0 0 0 0])
+  ("fields" .
+   [2 0 2 0 0 0])
+  ("ToOneField" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("True" .
+   [2 0 0 0])
+  ("TextField" .
+   [0 0 0 1 0 0 0 0 0])
+  ("alarm" .
+   [1 0 0 0 0])
+  ("status" .
+   [1 0 0 0 0 0])
+  ("models" .
+   [1 0 0 0 0 0])
+  ("BooleanField" .
+   [0 0 1 0 0 0 0 0 0 0 0 0])
+  ("default" .
+   [0 0 0 0 1 0 0])
+  ("False" .
+   [1 0 0 0 0])
+  ("attribute" .
+   [1 0 0 1 0 0 0 0 0])
+  ("windspeed" .
+   [0 0 0 0 1 0 0 0 0])
+  ("IntegerField" .
+   [0 0 1 0 0 0 0 0 0 0 0 0])
+  ("currenttime" .
+   [0 0 0 1 0 0 0 0 0 0 0])
+  ("currentpower" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("ExtendedModelResource" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("from" .
+   [1 0 0 0])
+  ("tastypie" .
+   [0 0 1 0 0 0 0 0])
+  ("serializers" .
+   [0 0 0 2 0 0 0 0 0 0 0])
+  ("ctrlKey" .
+   [0 0 0 1 1 0 0])
+  ("cKey" .
+   [1 0 0 0])
+  ("$stuanswer_editor" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("for" .
+   [9 0 0])
+  ("length" .
+   [1 0 0 0 0 0])
+  ("request" .
+   [0 0 0 0 0 0 1])
+  ("KaasMember" .
+   [0 0 1 0 0 0 0 0 0 0])
+  ("turbine_switchoff" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("template" .
+   [2 0 0 3 0 0 0 0])
+  ("typename" .
+   [0 0 0 1 0 2 0 0])
+  ("void" .
+   [5 0 0 0])
+  ("std" .
+   [2 0 0])
+  ("cout" .
+   [1 0 0 0])
+  ("typeid" .
+   [0 0 1 0 0 0])
+  ("name" .
+   [1 0 0 0])
+  ("ref" .
+   [1 0 0])
+  ("nonref" .
+   [0 0 0 0 1 0])
+  ("yagist" .
+   [1 0 0 1 0 0])
+  ("while" .
+   [1 0 0 1 0])
+  ("char" .
+   [2 0 0 0])
+  ("left" .
+   [4 0 1 5])
+  ("right" .
+   [3 0 1 4 2])
+  ("left_index" .
+   [2 0 0 1 0 3 2 1 0 1])
+  ("right_index" .
+   [1 0 0 0 0 0 2 1 2 0 1])
+  ("pivot" .
+   [2 0 1 0 0])
+  ("i" .
+   [2])
+  ("SWAP" .
+   [0 0 1 0])
+  ("quicksort_sub" .
+   [0 0 1 2 0 0 0 0 0 0 0 0 0])
+  ("data_size" .
+   [0 0 0 0 0 0 1 0 0])
+  ("main" .
+   [1 0 0 0])
+  ("argc" .
+   [1 0 0 0])
+  ("argv" .
+   [1 0 0 0])
+  ("stdlib" .
+   [1 0 0 0 0 0])))
